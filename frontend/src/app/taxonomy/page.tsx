@@ -10,7 +10,7 @@ import React from "react";
  * The page updates automatically; no other file needs to change.
  */
 
-export const departments = [
+const departments = [
   "Roads Department",
   "Drainage Department",
   "Waste Management Department",
@@ -22,14 +22,14 @@ export const departments = [
   "Pollution Control Department",
 ] as const;
 
-export type Department = typeof departments[number];
+type Department = typeof departments[number];
 
-export interface TaxonomyCategory {
+interface TaxonomyCategory {
   category: string;
   subs: [string, Department][];
 }
 
-export const taxonomy: TaxonomyCategory[] = [
+const taxonomy: TaxonomyCategory[] = [
   {
     category: "Roads & Footpaths",
     subs: [

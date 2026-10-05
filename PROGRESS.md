@@ -52,10 +52,14 @@
 * Tested and verified PostGIS extension (`3.4 USE_GEOS=1 USE_PROJ=1 USE_STATS=1`).
 * Configured local developer workflow (Option 2): database runs in Docker container on port `5433`, while FastAPI can run locally with hot-reloading via `.venv`.
 
-### ✅ Step 2.5: Next.js + TypeScript Frontend Scaffolding
+### ✅ Step 2.5: Next.js + TypeScript Frontend Scaffolding & Visual Pages
 * Initialized Next.js 16 (App Router) in `frontend/`.
 * Configured **TypeScript**, **Tailwind CSS v4**, and **ESLint**.
-* Configured municipal-themed landing hero page (`src/app/page.tsx` & `src/app/layout.tsx`).
+* Created interactive portal pages:
+  * `/`: Civic issue intelligence landing page with status indicators and quick navigation.
+  * `/flow`: Interactive 4-stage, 52-phase implementation roadmap (`MunicipalRoadmap`).
+  * `/db_er_model`: Visual SVG-based interactive database ER diagram with crow's-foot notation.
+  * `/taxonomy`: Interactive taxonomy table detailing all 6 categories, 24 subcategories, and 9 departments.
 * Verified production build passes with `npm run build`.
 
 ### ✅ Step 3.1: SQLAlchemy Database Configuration

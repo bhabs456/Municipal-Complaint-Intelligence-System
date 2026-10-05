@@ -21,6 +21,27 @@ export default function Home() {
             <span>PostGIS Database: Connected</span>
           </div>
         </div>
+
+        <div className="flex flex-wrap items-center justify-center gap-3 pt-2">
+          <a
+            href="/flow"
+            className="px-4 py-2 rounded-lg bg-zinc-900 dark:bg-zinc-100 text-white dark:text-zinc-900 font-medium text-sm hover:opacity-90 transition-opacity"
+          >
+            System Roadmap & Flow
+          </a>
+          <a
+            href="/db_er_model"
+            className="px-4 py-2 rounded-lg bg-white dark:bg-zinc-900 border border-zinc-300 dark:border-zinc-700 text-zinc-800 dark:text-zinc-200 font-medium text-sm hover:bg-zinc-50 dark:hover:bg-zinc-800 transition-colors"
+          >
+            DB ER Diagram
+          </a>
+          <a
+            href="/taxonomy"
+            className="px-4 py-2 rounded-lg bg-white dark:bg-zinc-900 border border-zinc-300 dark:border-zinc-700 text-zinc-800 dark:text-zinc-200 font-medium text-sm hover:bg-zinc-50 dark:hover:bg-zinc-800 transition-colors"
+          >
+            Taxonomy & Departments
+          </a>
+        </div>
       </div>
     </main>
   );
