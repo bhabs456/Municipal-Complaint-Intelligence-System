@@ -118,6 +118,15 @@
   * Subcategories count = **24**
   * Distinct departments count = **9**
 
+### ✅ Phase 2.1: Dataset Inspection
+* Performed deep read-only inspection of raw dataset `5f99b09a-64b5-45f0-ab18-4cf0a0cabf6d.csv` (16,071 rows, 17 columns, 8.02 MB).
+* Profiled all 17 columns: types, missing values, distinct values, and sample data.
+* Analyzed duplicate records (33 exact duplicate rows, 586 duplicate title/description pairs).
+* Evaluated text properties: `title` (avg 44.2 chars) and `description` (avg 223.6 chars, 0% missing).
+* Audited 44 raw categories and 220 raw subcategories, noting high class imbalance and long-tail sparsity.
+* Verified 100% valid geospatial coordinates bounded strictly inside Bengaluru (lat: 12.71-13.18, lon: 77.43-77.81).
+* Documented full inspection results in [`backend/app/data/reports/phase_2_1_dataset_inspection_report.md`](backend/app/data/reports/phase_2_1_dataset_inspection_report.md).
+
 ---
 
 ## 🚀 How to Run the Project (Developer Cheat Sheet)
@@ -132,24 +141,26 @@
    cd backend
    source .venv/bin/activate
    uvicorn app.main:app --reload --port 8000
+3. **Initialize DB or Seed Data (from backend folder)**:
+   ```bash
+   cd backend
+   source .venv/bin/activate
+   python -m app.init_db
+   python -m app.seed_data
    ```
-3. **Start Frontend in Another Terminal**:
+4. **Start Frontend in Another Terminal**:
    ```bash
    cd frontend
    npm run dev
    ```
    * Frontend will be accessible at: `http://localhost:3000`
-4. **Verify**:
+5. **Verify**:
    * Frontend: `http://localhost:3000`
    * Backend Health: `curl http://localhost:8000/health`
    * DB Health: `curl http://localhost:8000/health/database`
    * Swagger Docs: `http://localhost:8000/docs`
 
-### Option B: Full Docker Mode
-```bash
-docker compose up --build -d
-```
-To stop:
+To stop the database:
 ```bash
 docker compose down
 ```

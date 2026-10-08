@@ -132,7 +132,7 @@ export default function MunicipalRoadmap() {
         <div className="mt-6 p-4 rounded-lg" style={{ background: C.card, border: `1px solid ${C.rule}`, fontFamily: sans }}>
           <div className="flex flex-wrap justify-between gap-1 text-sm mb-2">
             <span>{doneCount} of {total} phases complete</span>
-            <span className="font-semibold" style={{ color: C.next }}>Now: Stage 2 begins with 2.1 dataset inspection</span>
+            <span className="font-semibold" style={{ color: C.next }}>Now: Phase 2.1 inspected & documented, next up: 2.2 data cleaning</span>
           </div>
           <div className="h-2 rounded-full overflow-hidden" style={{ background: C.rule }}>
             <div key={doneCount} className="mc-bar h-full rounded-full" style={{ width: `${(doneCount / total) * 100}%`, background: C.done }} />
