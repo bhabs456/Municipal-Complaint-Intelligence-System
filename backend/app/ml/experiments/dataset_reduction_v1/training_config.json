@@ -1,0 +1,32 @@
+{
+  "experiment_name": "dataset_reduction_v1_retraining",
+  "random_seed": 42,
+  "n_bootstrap": 1000,
+  "input_dataset": "backend/app/data/processed/dataset_reduction_v1/training_dataset.csv",
+  "dataset_rows": {
+    "total": 8191,
+    "train": 5585,
+    "val": 1317,
+    "test": 1289
+  },
+  "majority_class_capping": 600,
+  "imbalance_ratio_training": "37.50:1 (reduced from 168.19:1)",
+  "feature_extraction": {
+    "vectorizer": "TfidfVectorizer",
+    "ngram_range": [
+      1,
+      2
+    ],
+    "min_df_category": 2,
+    "min_df_subcategory_branch": 1,
+    "max_df": 0.9,
+    "sublinear_tf": true
+  },
+  "classifier": {
+    "model_type": "LinearSVC",
+    "class_weight": "balanced",
+    "calibration": "CalibratedClassifierCV(method='sigmoid')",
+    "cv_splits_category": 3,
+    "cv_splits_subcategory_branch": 2
+  }
+}

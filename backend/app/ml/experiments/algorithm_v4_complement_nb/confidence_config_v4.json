@@ -1,0 +1,30 @@
+{
+  "version": "4.0.0-complement_nb",
+  "task1_civic_status": "NOT_EVALUABLE_ON_IN_SCOPE_DATA (Baseline 0.65 retained)",
+  "task2_category_confidence_threshold": 0.5,
+  "task3_subcategory_confidence_threshold": 0.4,
+  "policy": "Predictions below threshold are flagged as 'needs_human_review' for municipal triage.",
+  "calibration_method": "ComplementNB normalized posterior probabilities",
+  "validation_evaluations": {
+    "task2_at_0.50": {
+      "threshold": 0.5,
+      "coverage": 69.02,
+      "accepted_count": 909,
+      "accuracy_at_threshold": 97.03,
+      "error_rate_at_threshold": 2.97,
+      "macro_f1_at_threshold": 0.8934,
+      "review_count": 408,
+      "review_rate": 30.98
+    },
+    "task3_at_0.40": {
+      "threshold": 0.4,
+      "coverage": 0.0,
+      "accepted_count": 0,
+      "accuracy_at_threshold": 0.0,
+      "error_rate_at_threshold": 0.0,
+      "macro_f1_at_threshold": 0.0,
+      "review_count": 1317,
+      "review_rate": 100.0
+    }
+  }
+}

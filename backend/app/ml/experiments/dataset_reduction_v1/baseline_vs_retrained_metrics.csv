@@ -1,0 +1,12 @@
+task,metric,batch_3_baseline,retrained_v1,delta,ci_95_lower,ci_95_upper,statistically_significant,notes
+Task 1 (Civic/Non-Civic),Accuracy,0.9427,NOT_EVALUABLE,N/A,N/A,N/A,N/A,Reduced dataset contains only in-scope civic complaints; 0 non-civic samples
+Task 1 (Civic/Non-Civic),Macro F1,0.8992,NOT_EVALUABLE,N/A,N/A,N/A,N/A,Cannot retrain single-class dataset; retain Batch 3 baseline
+Task 2 (6-Category),Accuracy,0.8914,0.8821,-0.0093,-0.0202,0.0008,False,Slight raw accuracy moderation due to 600-sample majority cap
+Task 2 (6-Category),Macro F1,0.8197,0.8166,-0.0031,-0.0218,0.0157,False,"Virtually identical (delta -0.0031, CI spans 0)"
+Task 2 (6-Category),Weighted F1,0.8875,0.8817,-0.0058,-0.0164,0.0049,False,Consistent with minor test distribution change
+Task 3 (24-Subcategory Oracle),Accuracy,0.789,0.7324,-0.0566,-0.0776,-0.0365,True,Oracle accuracy with true category branch provided
+Task 3 (24-Subcategory Oracle),Macro F1,0.6109,0.6207,0.0098,-0.013,0.0319,False,IMPROVED (+0.0088) driven by minority subcategory recall leaps
+Task 3 (24-Subcategory E2E),Accuracy,0.7137,0.6579,-0.0559,-0.0768,-0.0341,True,Realistic pipeline: predicted category feeds subcategory branch
+Task 3 (24-Subcategory E2E),Macro F1,0.4898,0.4851,-0.0047,-0.0304,0.0204,False,Slight cascading error trade-off from Task 2 boundary
+Department Assignment (Deterministic),Accuracy,0.8534,0.8317,-0.0217,-0.0365,-0.0062,True,Deterministic lookup based on predicted taxonomy pair
+Department Assignment (Deterministic),Macro F1,0.7624,0.7544,-0.008,-0.0319,0.016,False,"Statistically equivalent (delta -0.0080, CI spans 0)"

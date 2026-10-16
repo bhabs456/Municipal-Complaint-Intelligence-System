@@ -1,0 +1,8 @@
+{
+  "tier1_exact_duplicates_recall": 1.0,
+  "tier2_spatial_false_positive_rate": 0.0,
+  "tier3_semantic_false_positive_rate": 0.0,
+  "tier4_recurring_issue_accuracy": 1.0,
+  "avg_query_latency_ms": 0.39107322692871094,
+  "p95_query_latency_ms": 0.5790114402770995
+}

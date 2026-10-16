@@ -1,3 +1,7 @@
+# Operating System
+.DS_Store
+*.DS_Store
+
 # Environments and local files
 .env
 .env.local
@@ -31,6 +35,13 @@ venv/
 ENV/
 env/
 
+# Frontend / Node
+node_modules/
+.next/
+out/
+build/
+dist/
+
 # IDE / Editors
 .vscode/
 .idea/
@@ -44,3 +55,25 @@ postgres_data/
 .pytest_cache/
 .coverage
 htmlcov/
+
+# Machine Learning Binary Model Weights (~180MB)
+*.joblib
+*.pkl
+
+# Massive Generated Intermediate Datasets (~111MB)
+backend/app/data/processed/cleaned_working_dataset.csv
+backend/app/data/processed/civic_classification.csv
+backend/app/data/processed/unmapped_review_queue.csv
+backend/app/data/processed/batch_2/prepared_master_dataset.csv
+backend/app/data/processed/batch_2/task*.csv
+backend/app/data/processed/batch_2/split_assignments.csv
+backend/app/data/processed/batch_3/misclassifications*.csv
+backend/app/data/processed/dataset_reduction_v1/scope_filtered_dataset.csv
+backend/app/data/processed/dataset_reduction_v1/training_dataset.csv
+backend/app/data/processed/dataset_reduction_v1/dataset_reduction_audit.csv
+backend/app/data/processed/dataset_reduction_v1/unmapped_labels.csv
+
+# Large intermediate experiment predictions & datasets
+backend/app/ml/experiments/*/training_dataset*.csv
+backend/app/ml/experiments/*/row_by_row_test_predictions.csv
+backend/app/ml/experiments/*/department_error_analysis.csv

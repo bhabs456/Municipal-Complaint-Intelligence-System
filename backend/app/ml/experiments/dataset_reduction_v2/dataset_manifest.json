@@ -1,0 +1,84 @@
+{
+  "experiment_id": "dataset_reduction_v2_soft_cap_20261016",
+  "timestamp": "2026-10-16T17:42:50.076838+00:00",
+  "status": "COMPLETED",
+  "raw_csv_sha256": "d951dbb484532421801f6cbd7550edaa6f9ab143da7c4d0e835ba574e4e6d5ac",
+  "training_dataset_v2_sha256": "f8910f82f9d33010f0c17d3b8300c28b6dd34045616d50af5812aea469e8bc3e",
+  "artifacts_generated": {
+    "training_dataset": "training_dataset_v2.csv",
+    "sampling_audit": "sampling_audit.csv",
+    "task2_model": "task2_category_classifier_v2.joblib",
+    "task3_bundle": "task3_subcategory_classifier_bundle_v2.joblib",
+    "task3_global": "task3_global_baseline_v2.joblib",
+    "confidence_config": "confidence_config_v2.json",
+    "per_class_metrics": "per_class_metrics.csv",
+    "prediction_transitions": "prediction_transition_counts.csv",
+    "row_by_row_predictions": "row_by_row_test_predictions.csv",
+    "training_config": "training_config.json",
+    "evaluation_report": "evaluation_report.md"
+  },
+  "metrics_summary": {
+    "task2_category": {
+      "batch_3": {
+        "accuracy": 0.8914,
+        "macro_f1": 0.8197
+      },
+      "v1": {
+        "accuracy": 0.8821,
+        "macro_f1": 0.8166
+      },
+      "v2": {
+        "accuracy": 0.8922,
+        "macro_f1": 0.8272
+      }
+    },
+    "task3_subcategory_oracle": {
+      "batch_3": {
+        "accuracy": 0.789,
+        "macro_f1": 0.6109
+      },
+      "v1": {
+        "accuracy": 0.7324,
+        "macro_f1": 0.6207
+      },
+      "v2": {
+        "accuracy": 0.7727,
+        "macro_f1": 0.621
+      }
+    },
+    "task3_subcategory_e2e": {
+      "batch_3": {
+        "accuracy": 0.7137,
+        "macro_f1": 0.4898
+      },
+      "v1": {
+        "accuracy": 0.6579,
+        "macro_f1": 0.4851
+      },
+      "v2": {
+        "accuracy": 0.6974,
+        "macro_f1": 0.49
+      }
+    },
+    "department": {
+      "batch_3": {
+        "accuracy": 0.8534,
+        "macro_f1": 0.7624
+      },
+      "v1": {
+        "accuracy": 0.8317,
+        "macro_f1": 0.7544
+      },
+      "v2": {
+        "accuracy": 0.8534,
+        "macro_f1": 0.7695
+      }
+    }
+  },
+  "acceptance_criteria_verdicts": {
+    "criterion_1_recover_e2e_accuracy": "PASSED (+3.95 percentage points recovery from 65.79% to 69.74%)",
+    "criterion_2_preserve_macro_f1": "PASSED (Macro-F1 0.4900, higher than both v1 0.4851 and Batch 3 0.4898)",
+    "criterion_3_recover_department_accuracy": "PASSED (100% full recovery to 85.34%, with all-time high Macro-F1 0.7695)",
+    "criterion_4_broad_gains_not_majority_only": "PASSED (Minority gains like Street Light Installation 75% recall and Waste Disposal F1 preserved)"
+  }
+}

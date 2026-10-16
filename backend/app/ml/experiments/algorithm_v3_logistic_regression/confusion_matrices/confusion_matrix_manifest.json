@@ -1,0 +1,9 @@
+{
+  "experiment": "algorithm_v3_logistic_regression",
+  "matrices": [
+    "cm_task2.csv",
+    "cm_task3_e2e.csv",
+    "cm_task3_oracle.csv",
+    "cm_department.csv"
+  ]
+}

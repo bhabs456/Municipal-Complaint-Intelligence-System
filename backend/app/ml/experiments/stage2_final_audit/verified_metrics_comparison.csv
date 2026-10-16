@@ -1,0 +1,13 @@
+task,metric,batch3_baseline,reduction_v1,reduction_v2_linearsvc,exp_v3_logisticreg,exp_v4_compnb,verified_winner,previous_reported_winner,correction_status,notes
+Task 2: Category,Accuracy,0.8914,0.8821,0.8922,0.8875,0.8867,Reduction v2 (LinearSVC),v2,Verified Correct,v2 achieves highest overall category accuracy (+0.0047 over v3)
+Task 2: Category,Macro-F1,0.8197,0.8166,0.8272,0.8333,0.7984,Exp v3 (LogisticReg),v2,Corrected (v3 won),Corrected: Exp v3 won (0.8333 vs 0.8272). Previous report mislabeled v2 as winner.
+Task 2: Category,Weighted-F1,0.8875,0.8817,0.8902,0.8881,0.8821,Reduction v2 (LinearSVC),-,Verified,v2 leads in weighted F1 (0.8902 vs 0.8881)
+Task 3: Oracle Subcat,Accuracy,0.789,0.7324,0.7727,0.7611,0.7324,Batch 3 Baseline,v3 / Batch 3,Corrected (Batch 3 won),Corrected: Batch 3 won (0.7890 vs 0.7727 v2). Previous report listed v3 / Batch 3.
+Task 3: Oracle Subcat,Macro-F1,0.6109,0.6207,0.621,0.5916,0.5671,Reduction v2 (LinearSVC),v2,Verified Correct,"Reduction v2 won (0.6210 vs 0.6109 B3, 0.5916 v3)."
+Task 3: Oracle Subcat,Weighted-F1,0.7745,0.7341,0.7664,0.7605,0.7335,Batch 3 Baseline,-,Verified,Batch 3 won (0.7745 vs 0.7664 v2).
+Task 3: E2E Subcat,Accuracy,0.7137,0.6579,0.6974,0.6866,0.668,Batch 3 Baseline,Batch 3 / v2,Corrected (Batch 3 won),Corrected: Batch 3 won (0.7137 vs 0.6974 v2). Previous report combined Batch 3 / v2.
+Task 3: E2E Subcat,Macro-F1,0.4898,0.4851,0.49,0.4991,0.4533,Exp v3 (LogisticReg),v2,Corrected (v3 won),Corrected: Exp v3 won (0.4991 vs 0.4900 v2). Previous report mislabeled v2 as winner.
+Task 3: E2E Subcat,Weighted-F1,0.6961,0.6572,0.6873,0.6849,0.6639,Batch 3 Baseline,-,Verified,Batch 3 won (0.6961 vs 0.6873 v2).
+Department Routing,Accuracy,0.8534,0.8317,0.8534,0.8487,0.8285,Batch 3 Baseline / Reduction v2 (LinearSVC),v2 / Batch 3,Corrected,"Tie: Batch 3 and Reduction v2 both achieved exactly 0.8534 (1,100 / 1,289)."
+Department Routing,Macro-F1,0.7624,0.7544,0.7695,0.7786,0.7302,Exp v3 (LogisticReg),v2,Corrected (v3 won),Corrected: Exp v3 won (0.7786 vs 0.7695 v2). Previous report mislabeled v2 as winner.
+Department Routing,Weighted-F1,0.8434,0.8325,0.8476,0.8481,0.8248,Exp v3 (LogisticReg),-,Verified,Exp v3 won (0.8481 vs 0.8476 v2).

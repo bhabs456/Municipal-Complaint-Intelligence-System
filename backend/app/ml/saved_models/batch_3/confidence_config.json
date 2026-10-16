@@ -1,0 +1,7 @@
+{
+  "task1_civic_confidence_threshold": 0.65,
+  "task2_category_confidence_threshold": 0.5,
+  "task3_subcategory_confidence_threshold": 0.4,
+  "policy": "Predictions below threshold are flagged as 'needs_human_review' for municipal triage.",
+  "calibration_method": "Platt / Sigmoid CalibratedClassifierCV on training splits"
+}

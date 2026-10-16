@@ -1,0 +1,7 @@
+metric,v2_estimate,v3_estimate,point_difference_v3_minus_v2,ci_95_lower,ci_95_upper,spans_zero,is_statistically_significant,resamples,random_seed,practical_interpretation
+Task 2 Category Accuracy,0.8922,0.8875,-0.0047,-0.014,0.0047,True,False,2000,42,"Equivalence / No practical difference (spans 0, delta < 0.005)"
+Task 2 Category Macro-F1,0.8272,0.8333,0.0061,-0.0133,0.026,True,False,2000,42,"Slight v3 advantage, but statistically inconclusive (95% CI spans 0)"
+Task 3 E2E Subcategory Accuracy,0.6974,0.6866,-0.0109,-0.0248,0.0031,True,False,2000,42,"Slight v2 advantage, but statistically inconclusive (95% CI spans 0)"
+Task 3 E2E Subcategory Macro-F1,0.49,0.4991,0.0092,-0.0215,0.0406,True,False,2000,42,"Slight v3 advantage, but statistically inconclusive (95% CI spans 0)"
+Department Accuracy,0.8534,0.8487,-0.0047,-0.0155,0.0062,True,False,2000,42,"Equivalence / No practical difference (spans 0, delta < 0.005)"
+Department Macro-F1,0.7695,0.7786,0.0091,-0.009,0.0294,True,False,2000,42,"Slight v3 advantage, but statistically inconclusive (95% CI spans 0)"

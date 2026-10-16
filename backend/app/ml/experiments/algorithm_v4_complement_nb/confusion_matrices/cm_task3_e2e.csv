@@ -1,0 +1,25 @@
+,Air Pollution,Drain Blockage / Desilting,Electrical Pole / Transformer Issues,Electricity Supply,Footpath Damage / Repair,Garbage Collection / Removal,Garbage Dumping,Land / Waste Pollution,New Water Connection / Pipeline,Noise Pollution,Potholes & Road Damage,Road Repair / Construction,Road Waterlogging,Sewer Blockage / Overflow,Sewer Line Repair / Maintenance,Storm Water Drainage / Waterlogging,Street / Public Area Cleaning,Street Light Installation,Street Light Not Working / Repair,Waste Disposal & Segregation,Water Leakage,Water Pipeline Damage / Maintenance,Water Pollution,Water Supply Interruption
+Air Pollution,1,0,0,0,1,0,5,0,0,2,1,2,0,0,0,0,0,0,0,1,0,0,0,0
+Drain Blockage / Desilting,0,6,0,0,6,0,2,0,0,0,4,3,2,0,2,0,0,0,0,0,0,0,0,1
+Electrical Pole / Transformer Issues,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+Electricity Supply,0,0,0,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Footpath Damage / Repair,0,0,0,0,58,0,1,0,0,0,2,0,2,0,0,1,1,0,0,0,0,0,0,0
+Garbage Collection / Removal,0,0,0,0,0,31,7,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Garbage Dumping,4,0,0,1,5,41,252,0,0,0,6,4,0,1,1,0,15,1,2,4,0,0,0,0
+Land / Waste Pollution,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+New Water Connection / Pipeline,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Noise Pollution,1,0,0,0,0,0,0,0,0,23,0,2,0,0,0,0,0,0,1,0,0,0,0,0
+Potholes & Road Damage,1,0,0,0,12,2,11,0,0,0,137,50,12,1,1,1,0,1,2,0,0,0,0,1
+Road Repair / Construction,1,0,0,0,9,0,4,0,0,1,51,114,8,0,0,0,2,1,0,0,0,0,0,0
+Road Waterlogging,0,0,0,0,2,0,2,0,0,0,2,5,9,0,2,0,0,0,0,0,0,0,0,0
+Sewer Blockage / Overflow,0,0,0,0,0,0,2,0,0,0,1,2,1,5,1,0,0,0,1,0,0,0,0,0
+Sewer Line Repair / Maintenance,0,0,0,1,2,0,1,0,0,0,2,1,0,1,10,1,0,0,1,0,0,0,0,0
+Storm Water Drainage / Waterlogging,0,2,0,0,1,0,1,0,0,0,2,0,0,0,2,1,0,0,0,0,0,0,0,0
+Street / Public Area Cleaning,1,0,0,0,1,4,15,0,0,0,1,1,1,1,0,0,47,0,1,1,0,0,1,0
+Street Light Installation,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,8,0,0,0,0,0
+Street Light Not Working / Repair,0,0,0,2,1,0,0,0,0,0,3,4,0,1,0,0,0,3,112,0,1,0,0,0
+Waste Disposal & Segregation,0,0,0,0,0,2,5,0,0,0,1,0,0,0,0,0,0,0,0,2,0,0,0,0
+Water Leakage,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0,1
+Water Pipeline Damage / Maintenance,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+Water Pollution,0,1,0,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,2,0
+Water Supply Interruption,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,22

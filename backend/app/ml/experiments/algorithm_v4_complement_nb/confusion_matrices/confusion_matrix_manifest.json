@@ -1,0 +1,9 @@
+{
+  "experiment": "algorithm_v4_complement_nb",
+  "matrices": [
+    "cm_task2.csv",
+    "cm_task3_e2e.csv",
+    "cm_task3_oracle.csv",
+    "cm_department.csv"
+  ]
+}

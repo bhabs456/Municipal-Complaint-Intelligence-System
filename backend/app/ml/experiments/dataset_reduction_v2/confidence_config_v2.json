@@ -1,0 +1,31 @@
+{
+  "version": "2.0.0-soft_cap",
+  "task1_civic_confidence_threshold": 0.65,
+  "task1_civic_status": "NOT_EVALUABLE_ON_IN_SCOPE_DATA (Baseline 0.65 preserved)",
+  "task2_category_confidence_threshold": 0.5,
+  "task3_subcategory_confidence_threshold": 0.4,
+  "policy": "Predictions below threshold are flagged as 'needs_human_review' for municipal triage.",
+  "calibration_method": "Platt / Sigmoid CalibratedClassifierCV on training splits",
+  "validation_evaluations": {
+    "task2_at_0.50": {
+      "threshold": 0.5,
+      "coverage": 93.77,
+      "accepted_count": 1235,
+      "accuracy_at_threshold": 91.58,
+      "error_rate_at_threshold": 8.42,
+      "macro_f1_at_threshold": 0.8445,
+      "review_count": 82,
+      "review_rate": 6.23
+    },
+    "task3_at_0.40": {
+      "threshold": 0.4,
+      "coverage": 97.57,
+      "accepted_count": 1285,
+      "accuracy_at_threshold": 72.84,
+      "error_rate_at_threshold": 27.16,
+      "macro_f1_at_threshold": 0.4889,
+      "review_count": 32,
+      "review_rate": 2.43
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "pipeline_version": "1.0.0",
+  "timestamp": "2026-10-16T16:43:59.992963+00:00",
+  "random_seed": 42,
+  "raw_csv_path": "/Users/bhabanishankarpanda/Projects/Python/Municipal-Complaint-Intelligence-System/backend/app/data/raw/5f99b09a-64b5-45f0-ab18-4cf0a0cabf6d.csv",
+  "raw_csv_sha256": "d951dbb484532421801f6cbd7550edaa6f9ab143da7c4d0e835ba574e4e6d5ac",
+  "input_source_dataset": "/Users/bhabanishankarpanda/Projects/Python/Municipal-Complaint-Intelligence-System/backend/app/data/processed/batch_2/prepared_master_dataset.csv",
+  "input_source_sha256": "2338d5c151be5fb7fcad63a53d0352ce99cb747d2447612668fc4cbd2d2cc84e",
+  "taxonomy_json_path": "/Users/bhabanishankarpanda/Projects/Python/Municipal-Complaint-Intelligence-System/backend/app/data/processed/final_taxonomy_mapping.json",
+  "taxonomy_sha256": "3a93ba20014ef920834a33d4a9424d1d2b5e9b26fc7b35f5a5161dc687af0bfa",
+  "record_counts": {
+    "original_total": 16071,
+    "in_scope": 13142,
+    "out_of_scope": 2564,
+    "review_required": 365,
+    "mapping_error": 0,
+    "scope_filtered_train": 10536,
+    "scope_filtered_val": 1317,
+    "scope_filtered_test": 1289,
+    "training_reduced_train": 5585,
+    "training_dataset_total": 8191
+  },
+  "sampling_strategy": {
+    "method": "Quality-controlled deduplication and soft majority-class ceiling",
+    "exact_duplicate_rows_removed_in_train": 45,
+    "near_duplicate_cluster_dedup_retained_in_train": 10100,
+    "majority_class_train_ceiling": 600,
+    "minority_classes_retention": "100% of all distinct examples preserved",
+    "evaluation_splits_handling": "Validation (1,317) and Test (1,289) preserved 100% untouched"
+  },
+  "artifacts": {
+    "scope_filtered_dataset.csv": {
+      "path": "/Users/bhabanishankarpanda/Projects/Python/Municipal-Complaint-Intelligence-System/backend/app/data/processed/dataset_reduction_v1/scope_filtered_dataset.csv",
+      "sha256": "caba156768a62d8771df86e7fba539841483589bab8b1d7ce7594e00654aa24a",
+      "rows": 13142
+    },
+    "training_dataset.csv": {
+      "path": "/Users/bhabanishankarpanda/Projects/Python/Municipal-Complaint-Intelligence-System/backend/app/data/processed/dataset_reduction_v1/training_dataset.csv",
+      "sha256": "e9d31eec903d9c14896856f8ce366be2ce095cffb5d0a10d43c1db51264a1042",
+      "rows": 8191
+    },
+    "dataset_reduction_audit.csv": {
+      "path": "/Users/bhabanishankarpanda/Projects/Python/Municipal-Complaint-Intelligence-System/backend/app/data/processed/dataset_reduction_v1/dataset_reduction_audit.csv",
+      "sha256": "8d9f333a00e8f03cf8e688fc18e76d84e6f31c63f14b5ec0aa7002e4db28d750",
+      "rows": 16071
+    },
+    "category_distribution.csv": {
+      "path": "/Users/bhabanishankarpanda/Projects/Python/Municipal-Complaint-Intelligence-System/backend/app/data/processed/dataset_reduction_v1/category_distribution.csv",
+      "sha256": "c59042a58862db5d56cbbdf4ed0514d6e7e9c5076549ffba60da477878623086",
+      "rows": 6
+    },
+    "subcategory_distribution.csv": {
+      "path": "/Users/bhabanishankarpanda/Projects/Python/Municipal-Complaint-Intelligence-System/backend/app/data/processed/dataset_reduction_v1/subcategory_distribution.csv",
+      "sha256": "01b82942123c952fda00940504dd7e247c0de1caad812ac80ca4c5dad5643ce8",
+      "rows": 24
+    },
+    "unmapped_labels.csv": {
+      "path": "/Users/bhabanishankarpanda/Projects/Python/Municipal-Complaint-Intelligence-System/backend/app/data/processed/dataset_reduction_v1/unmapped_labels.csv",
+      "sha256": "ead807f168f630ffc4c974ee5a53e02383e722f63ce81b1d2ae2fd9eaee7fcbf",
+      "rows": 105
+    }
+  }
+}

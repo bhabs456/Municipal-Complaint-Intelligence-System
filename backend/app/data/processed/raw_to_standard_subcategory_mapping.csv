@@ -1,0 +1,233 @@
+raw_category,raw_subcategory,record_count,civic_classification,target_category,target_subcategory,target_department,mapping_confidence,review_status,reason
+Garbage and Unsanitary Practices,Clearance Of Garbage Dump Or Black Spot,3110,civic,Waste & Sanitation,Garbage Dumping,Waste Management Department,high,approved,Garbage black spot clearance
+"Mobility - Roads, Footpaths and Infrastructure",Fixing/Reparing Potholes,2247,civic,Roads & Footpaths,Potholes & Road Damage,Roads Department,high,approved,Direct match for pothole repair
+"Mobility - Roads, Footpaths and Infrastructure",Tarring Or Asphalting Of Existing Road,1623,civic,Roads & Footpaths,Road Repair / Construction,Roads Department,high,approved,Road tarring and resurfacing
+Animal Husbandry,Stray Dog Sterilisation/Animal Birth Control (ABC),772,non_civic,,,,high,non_civic_deferred,Animal control/veterinary services - outside municipal civil infrastructure
+Streetlights,Maintenance/Repair Of Streetlights,648,civic,Street Lighting & Electricity,Street Light Not Working / Repair,Street Lighting Department,high,approved,Streetlight repair
+Street lighting,Maintenance/Repair Of Streetlights,646,civic,Street Lighting & Electricity,Street Light Not Working / Repair,Street Lighting Department,high,approved,Streetlight repair
+Garbage and Unsanitary Practices,Collection Of Door-to-door Garbage,361,civic,Waste & Sanitation,Garbage Collection / Removal,Waste Management Department,high,approved,Door to door waste collection
+Others,Others,322,uncertain,,,,unmapped,needs_review,Completely generic label lacking complaint specificity
+"Mobility - Roads, Footpaths and Infrastructure",Tarring Or Asphalting Of Mud/Kutcha/Unpaved Road,260,civic,Roads & Footpaths,Road Repair / Construction,Roads Department,high,approved,Unpaved road construction
+Pollution,Noise Pollution,253,civic,Pollution,Noise Pollution,Pollution Control Department,high,approved,Noise pollution
+Yellow Spot,Report A Public Urination or Yellow Spot,253,civic,Waste & Sanitation,Street / Public Area Cleaning,Sanitation Department,high,approved,Public area urination cleaning
+Garbage and Unsanitary Practices,Garbage Dumping In Vacant Lot/Land,240,civic,Waste & Sanitation,Garbage Dumping,Waste Management Department,high,approved,Illegal waste dumping
+Water Supply and Services,Regular Water Supply,236,civic,Water Supply,Water Supply Interruption,Water Supply Department,high,approved,Water supply shortage/irregularity
+"Mobility - Roads, Footpaths and Infrastructure",Flooding/Waterlogging Of Roads And Footpaths,226,civic,Roads & Footpaths,Road Waterlogging,Drainage Department,high,approved,Road waterlogging/flooding
+Traffic and Road Safety,Traffic Jams/Congestion Or Bottlenecks,210,non_civic,,,,high,non_civic_deferred,Traffic police law enforcement - outside municipal civil domain
+Yellow Spot,Report Garbage or Debris on Footpath,196,civic,Waste & Sanitation,Street / Public Area Cleaning,Sanitation Department,high,approved,Footpath debris cleaning
+Electricity and Power Supply,Regular Supply Of Electricity,190,civic,Street Lighting & Electricity,Electricity Supply,Electrical Department,high,approved,Power outage and electricity supply
+Yellow Spot,Report A Broken Footpath,175,civic,Roads & Footpaths,Footpath Damage / Repair,Roads Department,high,approved,Misclassified footpath repair under yellow spot
+Traffic and Road Safety,Riding Without A Helmet,144,non_civic,,,,high,non_civic_deferred,Traffic police law enforcement - outside municipal civil domain
+Sewerage Systems,Maintenance And Repair Of Sewage Lines,143,civic,Sewage & Drainage,Sewer Line Repair / Maintenance,Sewerage Department,high,approved,Sewage line maintenance
+Traffic and Road Safety,No Parking,122,non_civic,,,,high,non_civic_deferred,Traffic police law enforcement - outside municipal civil domain
+Crime and Safety,Eve Teasing/Public Nuisance,118,non_civic,,,,high,non_civic_deferred,Regulatory enforcement / policing / municipal real estate administration
+"Mobility - Roads, Footpaths and Infrastructure",Construction Of Roadside Drains,117,civic,Sewage & Drainage,Drain Blockage / Desilting,Drainage Department,high,approved,Roadside drain construction under roads category
+"Mobility - Roads, Footpaths and Infrastructure",Construction of new footpaths,116,civic,Roads & Footpaths,Footpath Damage / Repair,Roads Department,high,approved,Footpath construction
+Street lighting,Installation Of New Streetlights,116,civic,Street Lighting & Electricity,Street Light Installation,Street Lighting Department,high,approved,New streetlight installation
+Roads and Footpaths,Build new footpaths and repair broken footpaths,113,civic,Roads & Footpaths,Footpath Damage / Repair,Roads Department,high,approved,Footpath construction & repair
+Pollution,Air Pollution,112,civic,Pollution,Air Pollution,Pollution Control Department,high,approved,Air pollution
+Traffic and Road Safety,Wrong Parking,112,non_civic,,,,high,non_civic_deferred,Traffic police law enforcement - outside municipal civil domain
+Yellow Spot,Require A New Footpath,103,civic,Roads & Footpaths,Footpath Damage / Repair,Roads Department,high,approved,Footpath construction under yellow spot
+Traffic and Road Safety,Parking On Footpath,98,non_civic,,,,high,non_civic_deferred,Traffic police law enforcement - outside municipal civil domain
+Parks & Recreation,Maintenance Of existing Parks,93,non_civic,,,,high,non_civic_deferred,Horticulture / urban forestry / public recreational grounds
+"Mobility - Roads, Footpaths and Infrastructure",Removal Of Roadside Debris (Construction Material),90,civic,Roads & Footpaths,Potholes & Road Damage,Roads Department,medium,approved,Roadway obstruction causing road hazard
+Storm Water Drains,Maintenance And Repair Of Storm Water Drains,90,civic,Sewage & Drainage,Storm Water Drainage / Waterlogging,Drainage Department,high,approved,Storm water drain system maintenance
+Yellow Spot,Require A New Public Toilet,87,civic,Waste & Sanitation,Street / Public Area Cleaning,Sanitation Department,medium,approved,Public sanitation toilet infrastructure
+"Mobility - Roads, Footpaths and Infrastructure",Management Of Hawkers and Vendors,83,non_civic,,,,high,non_civic_deferred,Regulatory enforcement / policing / municipal real estate administration
+"Mobility - Roads, Footpaths and Infrastructure",Repair Of Existing Footpaths,83,civic,Roads & Footpaths,Footpath Damage / Repair,Roads Department,high,approved,Footpath maintenance
+Garbage and Unsanitary Practices,Build Garbage/Waste Composting Units,64,civic,Waste & Sanitation,Waste Disposal & Segregation,Waste Management Department,high,approved,Waste processing & composting facility
+Yellow Spot,2C- Remove Garbage or Debris on Footpath,62,civic,Waste & Sanitation,Street / Public Area Cleaning,Sanitation Department,high,approved,Coded footpath debris cleaning
+Sewerage Systems,Sewarage Or Storm Water Overflow,61,civic,Sewage & Drainage,Sewer Blockage / Overflow,Sewerage Department,high,approved,Sewage overflow
+Sewerage Systems,Maintenance And Repair Of Manholes,54,civic,Sewage & Drainage,Sewer Blockage / Overflow,Sewerage Department,high,approved,Manhole maintenance and repair
+Garbage and Unsanitary Practices,Fogging (Mosquito Menace) Or Pest Control,52,civic,Waste & Sanitation,Street / Public Area Cleaning,Sanitation Department,medium,approved,Vector and pest control public sanitation
+Community Infrastructure and Services,Government Land/Property Encroachment,49,non_civic,,,,high,non_civic_deferred,Regulatory enforcement / policing / municipal real estate administration
+Public Toilets,Construction Of New Public Toilet,47,civic,Waste & Sanitation,Street / Public Area Cleaning,Sanitation Department,medium,approved,Public toilet sanitation infrastructure
+Street lighting,Installation/Maintenance Of Streetlight Timer,45,civic,Street Lighting & Electricity,Street Light Not Working / Repair,Street Lighting Department,high,approved,Streetlight timer maintenance
+Water Supply and Services,Stop Water Leakage,43,civic,Water Supply,Water Leakage,Water Supply Department,high,approved,Water pipe leakage
+Streetlights,Installation Of New Streetlights,42,civic,Street Lighting & Electricity,Street Light Installation,Street Lighting Department,high,approved,New streetlight installation
+"Mobility - Roads, Footpaths and Infrastructure",Desilting Existing Roadside Drains,42,civic,Sewage & Drainage,Drain Blockage / Desilting,Drainage Department,high,approved,Roadside drain desilting under roads category
+Storm Water Drains,Desilting/Remove Blockage of Storm Water Drains,42,civic,Sewage & Drainage,Drain Blockage / Desilting,Drainage Department,high,approved,Storm drain blockage desilting
+Trees and Saplings,Maintenance Of Trees/Saplings,40,non_civic,,,,high,non_civic_deferred,Horticulture / urban forestry / public recreational grounds
+Community Infrastructure and Services,Stop Unauthorised Construction,39,non_civic,,,,high,non_civic_deferred,Regulatory enforcement / policing / municipal real estate administration
+"Mobility - Roads, Footpaths and Infrastructure",Need Covering Slabs For Roadside Drains,34,civic,Sewage & Drainage,Drain Blockage / Desilting,Drainage Department,high,approved,Drain slabs under roads category
+Animal Husbandry,Controlling Of Stray Pigs,33,non_civic,,,,high,non_civic_deferred,Animal control/veterinary services - outside municipal civil infrastructure
+Garbage and Unsanitary Practices,Stop/Prevent Burning Of Garbage,33,civic,Waste & Sanitation,Waste Disposal & Segregation,Waste Management Department,high,approved,Waste burning prevention
+Traffic and Road Safety,Autorickshaws Meter Issues,31,non_civic,,,,high,non_civic_deferred,Traffic police law enforcement - outside municipal civil domain
+Yellow Spot,2B- Repair Broken Footpath,29,civic,Roads & Footpaths,Footpath Damage / Repair,Roads Department,high,approved,Coded footpath repair under yellow spot
+Pollution,Water Pollution,29,civic,Pollution,Water Pollution,Pollution Control Department,high,approved,Water pollution
+Sewerage Systems,Construction of Sewage Lines,29,civic,Sewage & Drainage,Sewer Line Repair / Maintenance,Sewerage Department,high,approved,Sewage line civil construction
+Trees and Saplings,Defacement Of Trees,28,non_civic,,,,high,non_civic_deferred,Horticulture / urban forestry / public recreational grounds
+Certificates,Property Tax,27,non_civic,,,,high,non_civic_deferred,Administrative / revenue / citizen identity document service
+Animal Husbandry,Removal Of Dead Animals,27,civic,Waste & Sanitation,Street / Public Area Cleaning,Sanitation Department,high,approved,Dead animal clearance
+Lakes,Maintenance Of Lake Surrounding,27,civic,Pollution,Water Pollution,Pollution Control Department,medium,approved,Lake waterbody protection and cleaning
+Traffic and Road Safety,One Way/No Entry,25,non_civic,,,,high,non_civic_deferred,Traffic police law enforcement - outside municipal civil domain
+Traffic and Road Safety,Riding On Footpath,25,non_civic,,,,high,non_civic_deferred,Traffic police law enforcement - outside municipal civil domain
+Others,Others - Others,24,uncertain,,,,unmapped,needs_review,Completely generic label lacking complaint specificity
+Traffic and Road Safety,Encroachment of cycle lane,24,non_civic,,,,high,non_civic_deferred,Traffic police law enforcement - outside municipal civil domain
+"Mobility - Roads, Footpaths and Infrastructure",Removal Of Illegal Posters And Hoardings,23,non_civic,,,,high,non_civic_deferred,Regulatory enforcement / policing / municipal real estate administration
+Pollution,Land Pollution,23,civic,Pollution,Land / Waste Pollution,Pollution Control Department,high,approved,Land pollution
+"Mobility - Roads, Footpaths and Infrastructure",Need Lane Markings/Street Name/Road Signages,22,civic,Roads & Footpaths,Road Repair / Construction,Roads Department,high,approved,Road signage and surface markings
+Garbage and Unsanitary Practices,Regular Sweeping Of Streets,21,civic,Waste & Sanitation,Street / Public Area Cleaning,Sanitation Department,high,approved,Street sanitation sweeping
+"Mobility - Roads, Footpaths and Infrastructure",Construction Of Skywalk/Flyover/Underpass,21,civic,Roads & Footpaths,Road Repair / Construction,Roads Department,high,approved,Road flyover/underpass civil construction
+Pollution,Pollution - Others,20,civic,Pollution,Air Pollution,Pollution Control Department,medium,approved,General environmental pollution
+Garbage and Unsanitary Practices,Build Dry Waste Collection Centre,20,civic,Waste & Sanitation,Garbage Collection / Removal,Waste Management Department,high,approved,Dry waste collection infrastructure
+Traffic and Road Safety,Maintenance/Repair Of Traffic or Pedestrain Lights,20,non_civic,,,,high,non_civic_deferred,Traffic police law enforcement - outside municipal civil domain
+Yellow Spot,Report A Dirty or Unusable Public Toilet,18,civic,Waste & Sanitation,Street / Public Area Cleaning,Sanitation Department,high,approved,Public toilet cleaning
+Trees and Saplings,Plant Saplings/Trees in your locality,18,non_civic,,,,high,non_civic_deferred,Horticulture / urban forestry / public recreational grounds
+,,18,uncertain,,,,unmapped,needs_review,Completely generic label lacking complaint specificity
+"Mobility - Roads, Footpaths and Infrastructure",Beautification/Maintenance Of Medians Or Circles,18,civic,Roads & Footpaths,Road Repair / Construction,Roads Department,medium,approved,Road traffic circle and median maintenance
+Garbage and Unsanitary Practices,Clearing Of Roadside Dustbin,17,civic,Waste & Sanitation,Garbage Dumping,Waste Management Department,high,approved,Roadside dustbin dump clearance
+Lakes,Desilting/Remove Blockage In Lakes,17,civic,Pollution,Water Pollution,Pollution Control Department,medium,approved,Lake environmental desilting
+Traffic and Road Safety,Pillion Rider Not Wearing Helmet,17,non_civic,,,,high,non_civic_deferred,Traffic police law enforcement - outside municipal civil domain
+Water Supply and Services,Maintenance Of Existing Water Pipeline,16,civic,Water Supply,Water Pipeline Damage / Maintenance,Water Supply Department,high,approved,Water pipeline maintenance
+Traffic and Road Safety,Using Mobile Phone,16,non_civic,,,,high,non_civic_deferred,Traffic police law enforcement - outside municipal civil domain
+Animal Husbandry,Controlling Of Stray Cattle Or Maintenance Of Cattle Pound,16,non_civic,,,,high,non_civic_deferred,Animal control/veterinary services - outside municipal civil infrastructure
+Traffic and Road Safety,Installation Of Traffic Sign Boards,16,non_civic,,,,high,non_civic_deferred,Traffic police law enforcement - outside municipal civil domain
+Sanitation,Maintanence of sewage lines,15,civic,Sewage & Drainage,Sewer Line Repair / Maintenance,Sewerage Department,high,approved,Sewage line maintenance
+Electricity and Power Supply,Repair Of Transformers/Electric Poles,15,civic,Street Lighting & Electricity,Electrical Pole / Transformer Issues,Electrical Department,high,approved,Electric pole and transformer repair
+Traffic and Road Safety,Defective/Fancy Number Plate,15,non_civic,,,,high,non_civic_deferred,Traffic police law enforcement - outside municipal civil domain
+Parks & Recreation,Construction Of New Parks,15,non_civic,,,,high,non_civic_deferred,Horticulture / urban forestry / public recreational grounds
+"Mobility - Roads, Footpaths and Infrastructure",Dangling Or Hanging Of OFCs/Cables/Wires,15,civic,Street Lighting & Electricity,Electrical Pole / Transformer Issues,Electrical Department,high,approved,Hanging cables over streets
+Traffic and Road Safety,Triple Riding,14,non_civic,,,,high,non_civic_deferred,Traffic police law enforcement - outside municipal civil domain
+Water Supply and Services,Provision for a New Water Pipeline,13,civic,Water Supply,New Water Connection / Pipeline,Water Supply Department,high,approved,New water pipeline provision
+Electricity and Power Supply,Installation Of New transformers/Electric Poles,13,civic,Street Lighting & Electricity,Electrical Pole / Transformer Issues,Electrical Department,high,approved,Electric pole installation
+Water Supply,Reduce water leakage and wastage,13,civic,Water Supply,Water Leakage,Water Supply Department,high,approved,Water pipe wastage and leak
+Traffic and Road Safety,Installation Of Traffic or Pedestrain Lights,13,non_civic,,,,high,non_civic_deferred,Traffic police law enforcement - outside municipal civil domain
+Traffic and Road Safety,Stopped on Zebra Cross,13,non_civic,,,,high,non_civic_deferred,Traffic police law enforcement - outside municipal civil domain
+Traffic and Road Safety,Jumping Traffic Signal,13,non_civic,,,,high,non_civic_deferred,Traffic police law enforcement - outside municipal civil domain
+Sewerage Systems,Removal Of Sewer Pipe Blockages and Overflows,12,civic,Sewage & Drainage,Sewer Blockage / Overflow,Sewerage Department,high,approved,Sewer pipe blockage clearance
+Trees and Saplings,Prevent Unauthorized Tree Cutting,12,non_civic,,,,high,non_civic_deferred,Horticulture / urban forestry / public recreational grounds
+"Mobility - Roads, Public transport",Repair Of Existing Footpaths,12,civic,Roads & Footpaths,Footpath Damage / Repair,Roads Department,high,approved,Footpath maintenance
+"Mobility - Roads, Footpaths and Infrastructure",Repair of Bridge and Culverts,12,civic,Roads & Footpaths,Potholes & Road Damage,Roads Department,high,approved,Bridge/culvert road damage
+Traffic and Road Safety,Repair of  mast light at a busy road (main road) junction,11,non_civic,,,,high,non_civic_deferred,Traffic police law enforcement - outside municipal civil domain
+Traffic and Road Safety,Repair of pedestrian lights,11,non_civic,,,,high,non_civic_deferred,Traffic police law enforcement - outside municipal civil domain
+Crime and Safety,Playing Of Loudspeakers Without Permisson,11,civic,Pollution,Noise Pollution,Pollution Control Department,high,approved,Loudspeaker noise pollution
+"Mobility - Roads, Footpaths and Infrastructure",Provision For Parking,10,non_civic,,,,high,non_civic_deferred,Regulatory enforcement / policing / municipal real estate administration
+Electricity and Power Supply,Relocation Of Transformers/Electric Poles,10,civic,Street Lighting & Electricity,Electrical Pole / Transformer Issues,Electrical Department,high,approved,Electric pole relocation
+Sanitation,Construction of sewage lines,10,civic,Sewage & Drainage,Sewer Line Repair / Maintenance,Sewerage Department,high,approved,Sewage line civil construction
+Public Transport - BMTC,Construction Of New Bus Shelter,10,non_civic,,,,high,non_civic_deferred,State transport bus corporation operational request
+Public Toilets,Cleaning Of Public Toilet,10,civic,Waste & Sanitation,Street / Public Area Cleaning,Sanitation Department,high,approved,Public toilet cleaning
+Certificates,Khata Certificate,10,non_civic,,,,high,non_civic_deferred,Administrative / revenue / citizen identity document service
+Community Infrastructure and Services,Fencing Of BBMP/Government Land,10,non_civic,,,,high,non_civic_deferred,Regulatory enforcement / policing / municipal real estate administration
+Community Infrastructure and Services,Construction Of Residential Quarters,10,non_civic,,,,high,non_civic_deferred,Regulatory enforcement / policing / municipal real estate administration
+Covid 19,Violation of Lockdown during Covid-19,9,non_civic,,,,high,non_civic_deferred,Regulatory enforcement / policing / municipal real estate administration
+"Mobility - Roads, Footpaths and Infrastructure",Installation Of Surveillance Cameras,9,non_civic,,,,high,non_civic_deferred,Regulatory enforcement / policing / municipal real estate administration
+Garbage and Unsanitary Practices,Garbage Dump,9,civic,Waste & Sanitation,Garbage Dumping,Waste Management Department,high,approved,Garbage dump clearance
+Safety and Crime,Increase police beat patrolling,9,non_civic,,,,high,non_civic_deferred,Regulatory enforcement / policing / municipal real estate administration
+"Mobility - Roads, Footpaths and Infrastructure",Need Roadside Rainwater Harvesting System,9,civic,Sewage & Drainage,Drain Blockage / Desilting,Drainage Department,high,approved,Rainwater drain under roads category
+Lakes,Removal of Encroachment In Lakes,8,civic,Pollution,Water Pollution,Pollution Control Department,medium,approved,Lake catchment environmental protection
+Public Transport - BMTC,Provide New Bus Routes,8,non_civic,,,,high,non_civic_deferred,State transport bus corporation operational request
+Yellow Spot,1A- Address Public Urination or Yellow Spots,8,civic,Waste & Sanitation,Street / Public Area Cleaning,Sanitation Department,high,approved,Coded public area urination cleaning
+Yellow Spot,"2A- Require New Footpath
+",8,civic,Roads & Footpaths,Footpath Damage / Repair,Roads Department,high,approved,Coded footpath construction under yellow spot
+Public Transport - BMTC,Issue With Bus Driver Or Conductor,8,non_civic,,,,high,non_civic_deferred,State transport bus corporation operational request
+Garbage and Unsanitary Practices,Implementation Of Waste Segregation/Garbage,7,civic,Waste & Sanitation,Waste Disposal & Segregation,Waste Management Department,high,approved,Waste segregation implementation
+"Mobility - Roads, Footpaths and Infrastructure",Maintenance Of Surveillance Cameras,7,non_civic,,,,high,non_civic_deferred,Regulatory enforcement / policing / municipal real estate administration
+Traffic and Road Safety,Violating lane discipline,7,non_civic,,,,high,non_civic_deferred,Traffic police law enforcement - outside municipal civil domain
+Sanitation,Repair  of broken storm water drains,7,civic,Sewage & Drainage,Drain Blockage / Desilting,Drainage Department,high,approved,Broken storm drain repair
+Certificates,Certificates - Other,7,non_civic,,,,high,non_civic_deferred,Administrative / revenue / citizen identity document service
+Community Infrastructure and Services,Construction Of Shopping And Commercial Complexes,7,non_civic,,,,high,non_civic_deferred,Regulatory enforcement / policing / municipal real estate administration
+,Report A Broken Footpath,6,civic,Roads & Footpaths,Footpath Damage / Repair,Roads Department,high,approved,Footpath damage repair
+Water Supply,Maintain regular water supply,6,civic,Water Supply,Water Supply Interruption,Water Supply Department,high,approved,Water supply maintenance
+Electricity & Power,Repair of transformers/ electric poles,6,civic,Street Lighting & Electricity,Electrical Pole / Transformer Issues,Electrical Department,high,approved,Electric pole and transformer repair (with space)
+Public Transport - BMTC,Maintenance/Repair Of Bus Shelter,6,non_civic,,,,high,non_civic_deferred,State transport bus corporation operational request
+Fire Safety,Fire safety - Others,6,non_civic,,,,high,non_civic_deferred,Regulatory enforcement / policing / municipal real estate administration
+Certificates,Birth Or Death Certificate,6,non_civic,,,,high,non_civic_deferred,Administrative / revenue / citizen identity document service
+Storm Water Drains,Sidewall And Fencing For Storm Water Drains,6,civic,Sewage & Drainage,Drain Blockage / Desilting,Drainage Department,high,approved,Storm drain fencing & sidewall
+Crime and Safety,Two Wheeler Wheeling,6,non_civic,,,,high,non_civic_deferred,Regulatory enforcement / policing / municipal real estate administration
+Community Infrastructure and Services,Maintenance/Renovation Of Heritage Sites,5,non_civic,,,,high,non_civic_deferred,Regulatory enforcement / policing / municipal real estate administration
+Crime and Safety,Increase Number Of Beat Patrols,5,non_civic,,,,high,non_civic_deferred,Regulatory enforcement / policing / municipal real estate administration
+Water Supply and Services,Installation Of Drinking Water ATMs,5,civic,Water Supply,New Water Connection / Pipeline,Water Supply Department,high,approved,Public drinking water facility
+Trees and Saplings,Remove Unwanted Tree Guards,5,non_civic,,,,high,non_civic_deferred,Horticulture / urban forestry / public recreational grounds
+Animal Husbandry,Dog,5,non_civic,,,,high,non_civic_deferred,Animal control/veterinary services - outside municipal civil infrastructure
+"Mobility - Roads, Footpaths and Infrastructure",Repair Of Roadside Rainwater Harvesting System,5,civic,Sewage & Drainage,Drain Blockage / Desilting,Drainage Department,high,approved,Rainwater drain repair under roads category
+PWD,Repair of Potholes on Roads,5,civic,Roads & Footpaths,Potholes & Road Damage,Roads Department,high,approved,Direct match for pothole repair
+Sanitation,Construction of storm water drains,4,civic,Sewage & Drainage,Drain Blockage / Desilting,Drainage Department,high,approved,Storm water drain construction
+Water Supply and Services,Illegal Pump,4,civic,Water Supply,Water Pipeline Damage / Maintenance,Water Supply Department,high,approved,Illegal booster pump causing pipeline suction/damage
+Animal Husbandry,Rabies Vaccination,4,non_civic,,,,high,non_civic_deferred,Animal control/veterinary services - outside municipal civil infrastructure
+,Report A Public Urination or Yellow Spot,4,civic,Waste & Sanitation,Street / Public Area Cleaning,Sanitation Department,high,approved,Public urination cleaning
+Yellow Spot,3A- Require Playing and Gym Equipment,4,non_civic,,,,high,non_civic_deferred,Horticulture / urban forestry / public recreational grounds
+Yellow Spot,1B- Require New Public Toilet,3,civic,Waste & Sanitation,Street / Public Area Cleaning,Sanitation Department,medium,approved,Public sanitation toilet infrastructure
+Parks & Recreation,Installation Of Lights In Parks,3,civic,Street Lighting & Electricity,Street Light Installation,Street Lighting Department,high,approved,Park lights installation
+Parks & Recreation,Plant New Tree Saplings In Parks,3,non_civic,,,,high,non_civic_deferred,Horticulture / urban forestry / public recreational grounds
+Parks & Recreation,Construction Of New Public Toilet In Parks,3,civic,Waste & Sanitation,Street / Public Area Cleaning,Sanitation Department,medium,approved,Public toilet in park
+Streetlights,Installation/Maintenance Of Streetlight Timer,3,civic,Street Lighting & Electricity,Street Light Not Working / Repair,Street Lighting Department,high,approved,Streetlight timer maintenance
+Power supply,Better maintenance of transformers,3,civic,Street Lighting & Electricity,Electrical Pole / Transformer Issues,Electrical Department,high,approved,Transformer maintenance
+Crime and Safety,Shops/Establishments Being Open in Late Hours,3,non_civic,,,,high,non_civic_deferred,Regulatory enforcement / policing / municipal real estate administration
+Certificates,Other Certificates,3,non_civic,,,,high,non_civic_deferred,Administrative / revenue / citizen identity document service
+,Report A Dirty or Unusable Public Toilet,3,civic,Waste & Sanitation,Street / Public Area Cleaning,Sanitation Department,high,approved,Toilet cleaning
+Parks & Recreation,Maintenance Of Existing Public Toilet In Parks,3,civic,Waste & Sanitation,Street / Public Area Cleaning,Sanitation Department,medium,approved,Public toilet in park maintenance
+Garbage and Unsanitary Practices,Sweeping Not Done,3,civic,Waste & Sanitation,Street / Public Area Cleaning,Sanitation Department,high,approved,Street sweeping grievance
+Traffic and Road Safety,Taking a U-turn where U-turn is prohibited,3,non_civic,,,,high,non_civic_deferred,Traffic police law enforcement - outside municipal civil domain
+Fire Safety,Fire Exit Blocked,3,non_civic,,,,high,non_civic_deferred,Regulatory enforcement / policing / municipal real estate administration
+Sanitation,Desilting of Storm water Drains,3,civic,Sewage & Drainage,Drain Blockage / Desilting,Drainage Department,high,approved,Storm drain desilting
+"Mobility - Roads, Public transport",Construction of flyovers/ underpass,3,civic,Roads & Footpaths,Road Repair / Construction,Roads Department,high,approved,Flyover and underpass construction
+Public transport (BMTC and Metro),Build new bus stands or shelters,3,non_civic,,,,high,non_civic_deferred,State transport bus corporation operational request
+Public Transport - BMTC,Increase Frequency Of Bus Services,3,non_civic,,,,high,non_civic_deferred,State transport bus corporation operational request
+Garbage and Unsanitary Practices,Open Manholes Or Drains,3,civic,Sewage & Drainage,Sewer Blockage / Overflow,Sewerage Department,high,approved,Hazardous open manholes or drains
+Lakes,Sidewalls And Fencing For Lake,2,civic,Pollution,Water Pollution,Pollution Control Department,medium,approved,Lake environmental protection
+Traffic and Road Safety,Not wearing seat belt,2,non_civic,,,,high,non_civic_deferred,Traffic police law enforcement - outside municipal civil domain
+Traffic and Road Safety,Stunt Riding,2,non_civic,,,,high,non_civic_deferred,Traffic police law enforcement - outside municipal civil domain
+Community Infrastructure and Services,Maintenance Of Educational Institutions And Libraries,2,non_civic,,,,high,non_civic_deferred,Regulatory enforcement / policing / municipal real estate administration
+Garbage and Unsanitary Practices,Maintenance Of Dry Waste Collection Centre,2,civic,Waste & Sanitation,Garbage Collection / Removal,Waste Management Department,high,approved,Dry waste collection center maintenance
+Community Infrastructure and Services,Maintenance Of Existing Council Buildings,2,non_civic,,,,high,non_civic_deferred,Regulatory enforcement / policing / municipal real estate administration
+"Mobility - Roads, Public transport",Installation of traffic lights,2,non_civic,,,,high,non_civic_deferred,Traffic signal enforcement equipment
+Garbage and Unsanitary Practices,Improper Disposal Of Feacal Waste Or  Septage,2,civic,Waste & Sanitation,Street / Public Area Cleaning,Sanitation Department,high,approved,Fecal waste dumping public sanitation
+Playgrounds,Construction Of New Playground,2,non_civic,,,,high,non_civic_deferred,Horticulture / urban forestry / public recreational grounds
+Animal Husbandry,Maintenance Of City Meat Production And Processing Centre,2,non_civic,,,,high,non_civic_deferred,Animal control/veterinary services - outside municipal civil infrastructure
+Electricity & Power,Ensure efficient and uninterrupted power supply,2,civic,Street Lighting & Electricity,Electricity Supply,Electrical Department,high,approved,Uninterrupted power supply
+Public transport (BMTC and Metro),Better quality and maintenance of buses,2,non_civic,,,,high,non_civic_deferred,State transport bus corporation operational request
+Public Transport - KSRTC,KSRTC - Driver or Conductor,2,non_civic,,,,high,non_civic_deferred,State transport bus corporation operational request
+Sewerage Systems,Maintenance Of Sewage Treatment Plant,2,civic,Sewage & Drainage,Sewer Line Repair / Maintenance,Sewerage Department,medium,approved,STP maintenance
+Public Toilets,Urination In Public Or Open Defecation,2,civic,Waste & Sanitation,Street / Public Area Cleaning,Sanitation Department,high,approved,Open defecation / urination public sanitation
+Safety and Crime,Introduce neighbourhood policing,2,non_civic,,,,high,non_civic_deferred,Regulatory enforcement / policing / municipal real estate administration
+Solid Waste Management,Garbage vehicle not arrived,2,civic,Waste & Sanitation,Garbage Collection / Removal,Waste Management Department,high,approved,Garbage vehicle arrival
+Public transport (BMTC and Metro),Build or improve metro rail network,2,non_civic,,,,high,non_civic_deferred,State transport bus corporation operational request
+Community Infrastructure and Services,Construction Of Markets,2,non_civic,,,,high,non_civic_deferred,Regulatory enforcement / policing / municipal real estate administration
+Power supply,Provide 24 hour power supply,2,civic,Street Lighting & Electricity,Electricity Supply,Electrical Department,high,approved,Uninterrupted power supply request
+Playgrounds,Construction Of New Public Toilet In Playground,2,civic,Waste & Sanitation,Street / Public Area Cleaning,Sanitation Department,medium,approved,Public toilet in playground
+Community Infrastructure and Services,Construction Of Educational Institutions And Libraries,1,non_civic,,,,high,non_civic_deferred,Regulatory enforcement / policing / municipal real estate administration
+Water Supply and Services,Water Meter,1,civic,Water Supply,New Water Connection / Pipeline,Water Supply Department,high,approved,Water connection meter
+Community Infrastructure and Services,Construction Of Crematoriums And Burial ground,1,non_civic,,,,high,non_civic_deferred,Regulatory enforcement / policing / municipal real estate administration
+Yellow Spot,Report A Dirty or Unusable Mobile Public Toilet,1,civic,Waste & Sanitation,Street / Public Area Cleaning,Sanitation Department,high,approved,Mobile toilet cleaning
+Water Supply and Services,Maintenance Of Existing Water Tank,1,civic,Water Supply,Water Pipeline Damage / Maintenance,Water Supply Department,high,approved,Water tank infrastructure maintenance
+Yellow Spot,1C- Repair Dirty or Unusable Public Toilet,1,civic,Waste & Sanitation,Street / Public Area Cleaning,Sanitation Department,high,approved,Toilet cleaning & repair
+Water Supply,Increase public taps and borewells-water pumps,1,civic,Water Supply,New Water Connection / Pipeline,Water Supply Department,high,approved,Public water connection expansion
+Water Supply and Services,Illegal Connection,1,civic,Water Supply,Water Pipeline Damage / Maintenance,Water Supply Department,high,approved,Illegal water pipeline tapping
+,Report Garbage or Debris on Footpath,1,civic,Waste & Sanitation,Street / Public Area Cleaning,Sanitation Department,high,approved,Footpath debris cleaning
+Waste Management,Cleaning of litter bins,1,civic,Waste & Sanitation,Street / Public Area Cleaning,Sanitation Department,high,approved,Public litter bin cleaning
+Water Supply,Regular supply of water,1,civic,Water Supply,Water Supply Interruption,Water Supply Department,high,approved,Water supply irregularity
+Solid Waste Management,Debris removal or construction material,1,civic,Waste & Sanitation,Garbage Dumping,Waste Management Department,high,approved,Debris and waste dump removal
+Trees and Saplings,Tree Guards required,1,non_civic,,,,high,non_civic_deferred,Horticulture / urban forestry / public recreational grounds
+Public Transport - KSRTC,KSRTC - Need new Bus Route,1,non_civic,,,,high,non_civic_deferred,State transport bus corporation operational request
+Garbage and Unsanitary Practices,Wet Waste Vehicle Not Arrived,1,civic,Waste & Sanitation,Garbage Collection / Removal,Waste Management Department,high,approved,Garbage collection vehicle schedule
+"Mobility - Roads, Public transport",Construction of skywalks,1,civic,Roads & Footpaths,Road Repair / Construction,Roads Department,high,approved,Skywalk civil construction
+"Mobility - Roads, Public transport",Introduction of new bus routes,1,non_civic,,,,high,non_civic_deferred,State transport bus corporation operational request
+Parks & Garden,Cleanliness of public Garden,1,non_civic,,,,high,non_civic_deferred,Horticulture / urban forestry / public recreational grounds
+Parks & Recreation,Maintenance Of Lights In Parks,1,civic,Street Lighting & Electricity,Street Light Installation,Street Lighting Department,high,approved,Park lights maintenance
+Pension,Others,1,uncertain,,,,unmapped,needs_review,Completely generic label lacking complaint specificity
+Playgrounds,Installation Of Lights In Playground,1,civic,Street Lighting & Electricity,Street Light Installation,Street Lighting Department,high,approved,Playground lights installation
+Playgrounds,Maintenance Of Existing Playground,1,non_civic,,,,high,non_civic_deferred,Horticulture / urban forestry / public recreational grounds
+Playgrounds,Maintenance Of Lights In Playground,1,civic,Street Lighting & Electricity,Street Light Installation,Street Lighting Department,high,approved,Playground lights maintenance
+Garbage and Unsanitary Practices,Dustbins not cleared,1,civic,Waste & Sanitation,Garbage Dumping,Waste Management Department,high,approved,Uncleared dustbins
+Fire Safety,Fire Pump is on OFF Mode,1,non_civic,,,,high,non_civic_deferred,Regulatory enforcement / policing / municipal real estate administration
+"Proibition & Sale of Tobacco products, Plastic carry bags",Spitting,1,non_civic,,,,high,non_civic_deferred,Regulatory enforcement / policing / municipal real estate administration
+Public Toilets,Cleaning Of Septic Tank Of Public Toilets,1,civic,Waste & Sanitation,Street / Public Area Cleaning,Sanitation Department,high,approved,Toilet septic tank cleaning
+Public Toilets,Maintenance/Repair Of Toilet Fixtures,1,civic,Waste & Sanitation,Street / Public Area Cleaning,Sanitation Department,high,approved,Toilet fixture maintenance
+Public Transport - KSRTC,KSRTC - Others,1,non_civic,,,,high,non_civic_deferred,State transport bus corporation operational request
+Community Infrastructure and Services,Construction Of Stadiums,1,non_civic,,,,high,non_civic_deferred,Regulatory enforcement / policing / municipal real estate administration
+Ration Card,Ration Card - Others,1,non_civic,,,,high,non_civic_deferred,Administrative / revenue / citizen identity document service
+Fire Pollution,Burning of garbage in open space,1,civic,Waste & Sanitation,Waste Disposal & Segregation,Waste Management Department,high,approved,Garbage burning in open space
+Solid Waste Management,Cleaning Of Drain,1,civic,Sewage & Drainage,Drain Blockage / Desilting,Drainage Department,high,approved,Drain cleaning
+Solid Waste Management,Garbage dump,1,civic,Waste & Sanitation,Garbage Dumping,Waste Management Department,high,approved,Garbage dump clearance
+EMP Grievance Redressal,Gradation List,1,non_civic,,,,high,non_civic_deferred,Administrative / revenue / citizen identity document service
+Covid 19,Violation of Quarantine during Covid-19,1,non_civic,,,,high,non_civic_deferred,Regulatory enforcement / policing / municipal real estate administration
+Covid 19,Request for Fogging/Sanitation during Covid-19,1,civic,Waste & Sanitation,Street / Public Area Cleaning,Sanitation Department,medium,approved,Sanitation fogging during pandemic
+Traffic and Road Safety,Installation Of Traffic Surveillance Camera,1,non_civic,,,,high,non_civic_deferred,Traffic police law enforcement - outside municipal civil domain
+Community Infrastructure and Services,Maintenance Of Shopping And Commercial Complexes,1,non_civic,,,,high,non_civic_deferred,Regulatory enforcement / policing / municipal real estate administration
+Community Infrastructure and Services,Maintenance Of Existing Ward & Zonal Offices,1,non_civic,,,,high,non_civic_deferred,Regulatory enforcement / policing / municipal real estate administration
+Community Infrastructure and Services,Maintenance Of Existing Swimming Pools,1,non_civic,,,,high,non_civic_deferred,Horticulture / urban forestry / public recreational grounds
+Community Infrastructure and Services,Maintenance Of Crematoriums And Burial ground,1,non_civic,,,,high,non_civic_deferred,Regulatory enforcement / policing / municipal real estate administration
+Traffic and Road Safety,Using black film-other materials,1,non_civic,,,,high,non_civic_deferred,Traffic police law enforcement - outside municipal civil domain
+Traffic and Road Safety,Wrong parking,1,non_civic,,,,high,non_civic_deferred,Traffic police law enforcement - outside municipal civil domain
+Animal Catcher,Dog,1,non_civic,,,,high,non_civic_deferred,Animal control/veterinary services - outside municipal civil infrastructure

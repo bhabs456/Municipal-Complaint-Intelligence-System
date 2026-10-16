@@ -1,0 +1,57 @@
+{
+  "task2_classes": [
+    "Pollution",
+    "Roads & Footpaths",
+    "Sewage & Drainage",
+    "Street Lighting & Electricity",
+    "Waste & Sanitation",
+    "Water Supply"
+  ],
+  "task3_classes": [
+    "Air Pollution",
+    "Drain Blockage / Desilting",
+    "Electrical Pole / Transformer Issues",
+    "Electricity Supply",
+    "Footpath Damage / Repair",
+    "Garbage Collection / Removal",
+    "Garbage Dumping",
+    "Land / Waste Pollution",
+    "New Water Connection / Pipeline",
+    "Noise Pollution",
+    "Potholes & Road Damage",
+    "Road Repair / Construction",
+    "Road Waterlogging",
+    "Sewer Blockage / Overflow",
+    "Sewer Line Repair / Maintenance",
+    "Storm Water Drainage / Waterlogging",
+    "Street / Public Area Cleaning",
+    "Street Light Installation",
+    "Street Light Not Working / Repair",
+    "Waste Disposal & Segregation",
+    "Water Leakage",
+    "Water Pipeline Damage / Maintenance",
+    "Water Pollution",
+    "Water Supply Interruption"
+  ],
+  "department_classes": [
+    "Drainage Department",
+    "Electrical Department",
+    "Pollution Control Department",
+    "Roads Department",
+    "Sanitation Department",
+    "Sewerage Department",
+    "Street Lighting Department",
+    "Waste Management Department",
+    "Water Supply Department"
+  ],
+  "files": [
+    "cm_task2_v2.csv",
+    "cm_task2_shift_v2_vs_v1.csv",
+    "cm_task3_e2e_v2.csv",
+    "cm_task3_e2e_shift_v2_vs_v1.csv",
+    "cm_task3_oracle_v2.csv",
+    "cm_task3_oracle_shift_v2_vs_v1.csv",
+    "cm_department_v2.csv",
+    "cm_department_shift_v2_vs_v1.csv"
+  ]
+}

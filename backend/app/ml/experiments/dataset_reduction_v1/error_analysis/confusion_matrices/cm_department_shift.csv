@@ -1,0 +1,10 @@
+,Drainage Department,Electrical Department,Pollution Control Department,Roads Department,Sanitation Department,Sewerage Department,Street Lighting Department,Waste Management Department,Water Supply Department
+Drainage Department,9,0,0,-5,1,0,1,-6,0
+Electrical Department,0,0,0,1,0,0,-1,0,0
+Pollution Control Department,2,0,0,1,1,0,1,-5,0
+Roads Department,7,0,0,-9,14,4,0,-17,1
+Sanitation Department,1,0,0,-2,10,1,0,-10,0
+Sewerage Department,2,0,0,-3,0,4,0,-3,0
+Street Lighting Department,1,1,0,1,0,0,-1,-2,0
+Waste Management Department,1,0,2,6,30,1,2,-42,0
+Water Supply Department,1,0,0,0,0,1,0,-3,1

@@ -1,0 +1,57 @@
+comparison,level,group_name,total_records,both_correct,both_incorrect,v2_fixed,v2_regressed,net_correct_delta,baseline_accuracy,candidate_v2_accuracy,accuracy_delta_pct_pts
+v2_vs_v1,Task Summary,Task 2 (Category),1289,1130,132,20,7,13,88.21,89.22,1.01
+v2_vs_b3,Task Summary,Task 2 (Category),1289,1134,124,16,15,1,89.14,89.22,0.08
+v2_vs_v1,Task Summary,Task 3 (Subcategory Oracle),1289,912,261,84,32,52,73.24,77.27,4.03
+v2_vs_b3,Task Summary,Task 3 (Subcategory Oracle),1289,951,227,45,66,-21,78.9,77.27,-1.63
+v2_vs_v1,Task Summary,Task 3 (Subcategory E2E),1289,817,359,82,31,51,65.79,69.74,3.96
+v2_vs_b3,Task Summary,Task 3 (Subcategory E2E),1289,850,320,49,70,-21,71.37,69.74,-1.63
+v2_vs_v1,Task Summary,Department Assignment,1289,1060,177,40,12,28,83.17,85.34,2.17
+v2_vs_b3,Task Summary,Department Assignment,1289,1077,166,23,23,0,85.34,85.34,0.0
+v2_vs_v1,Subcategory (E2E),Air Pollution,13,2,11,0,0,0,15.38,15.38,0.0
+v2_vs_b3,Subcategory (E2E),Air Pollution,13,2,11,0,0,0,15.38,15.38,0.0
+v2_vs_v1,Subcategory (E2E),Drain Blockage / Desilting,26,9,15,0,2,-2,42.31,34.62,-7.69
+v2_vs_b3,Subcategory (E2E),Drain Blockage / Desilting,26,8,17,1,0,1,30.77,34.62,3.85
+v2_vs_v1,Subcategory (E2E),Electrical Pole / Transformer Issues,6,3,3,0,0,0,50.0,50.0,0.0
+v2_vs_b3,Subcategory (E2E),Electrical Pole / Transformer Issues,6,3,3,0,0,0,50.0,50.0,0.0
+v2_vs_v1,Subcategory (E2E),Electricity Supply,19,19,0,0,0,0,100.0,100.0,0.0
+v2_vs_b3,Subcategory (E2E),Electricity Supply,19,18,0,1,0,1,94.74,100.0,5.26
+v2_vs_v1,Subcategory (E2E),Footpath Damage / Repair,65,55,10,0,0,0,84.62,84.62,0.0
+v2_vs_b3,Subcategory (E2E),Footpath Damage / Repair,65,55,9,0,1,-1,86.15,84.62,-1.54
+v2_vs_v1,Subcategory (E2E),Garbage Collection / Removal,39,28,8,0,3,-3,79.49,71.79,-7.69
+v2_vs_b3,Subcategory (E2E),Garbage Collection / Removal,39,20,11,8,0,8,51.28,71.79,20.51
+v2_vs_v1,Subcategory (E2E),Garbage Dumping,337,235,58,44,0,44,69.73,82.79,13.06
+v2_vs_b3,Subcategory (E2E),Garbage Dumping,337,277,22,2,36,-34,92.88,82.79,-10.09
+v2_vs_v1,Subcategory (E2E),Land / Waste Pollution,2,0,2,0,0,0,0.0,0.0,0.0
+v2_vs_b3,Subcategory (E2E),Land / Waste Pollution,2,0,2,0,0,0,0.0,0.0,0.0
+v2_vs_v1,Subcategory (E2E),New Water Connection / Pipeline,2,0,2,0,0,0,0.0,0.0,0.0
+v2_vs_b3,Subcategory (E2E),New Water Connection / Pipeline,2,0,2,0,0,0,0.0,0.0,0.0
+v2_vs_v1,Subcategory (E2E),Noise Pollution,27,23,4,0,0,0,85.19,85.19,0.0
+v2_vs_b3,Subcategory (E2E),Noise Pollution,27,23,4,0,0,0,85.19,85.19,0.0
+v2_vs_v1,Subcategory (E2E),Potholes & Road Damage,232,114,90,21,7,14,52.16,58.19,6.03
+v2_vs_b3,Subcategory (E2E),Potholes & Road Damage,232,128,73,7,24,-17,65.52,58.19,-7.33
+v2_vs_v1,Subcategory (E2E),Road Repair / Construction,191,122,51,10,8,2,68.06,69.11,1.05
+v2_vs_b3,Subcategory (E2E),Road Repair / Construction,191,116,53,16,6,10,63.87,69.11,5.24
+v2_vs_v1,Subcategory (E2E),Road Waterlogging,22,1,20,0,1,-1,9.09,4.55,-4.55
+v2_vs_b3,Subcategory (E2E),Road Waterlogging,22,1,20,0,1,-1,9.09,4.55,-4.55
+v2_vs_v1,Subcategory (E2E),Sewer Blockage / Overflow,13,4,8,0,1,-1,38.46,30.77,-7.69
+v2_vs_b3,Subcategory (E2E),Sewer Blockage / Overflow,13,4,9,0,0,0,30.77,30.77,0.0
+v2_vs_v1,Subcategory (E2E),Sewer Line Repair / Maintenance,20,14,6,0,0,0,70.0,70.0,0.0
+v2_vs_b3,Subcategory (E2E),Sewer Line Repair / Maintenance,20,11,6,3,0,3,55.0,70.0,15.0
+v2_vs_v1,Subcategory (E2E),Storm Water Drainage / Waterlogging,9,1,8,0,0,0,11.11,11.11,0.0
+v2_vs_b3,Subcategory (E2E),Storm Water Drainage / Waterlogging,9,1,8,0,0,0,11.11,11.11,0.0
+v2_vs_v1,Subcategory (E2E),Street / Public Area Cleaning,75,48,22,0,5,-5,70.67,64.0,-6.67
+v2_vs_b3,Subcategory (E2E),Street / Public Area Cleaning,75,43,27,5,0,5,57.33,64.0,6.67
+v2_vs_v1,Subcategory (E2E),Street Light Installation,16,9,4,0,3,-3,75.0,56.25,-18.75
+v2_vs_b3,Subcategory (E2E),Street Light Installation,16,6,7,3,0,3,37.5,56.25,18.75
+v2_vs_v1,Subcategory (E2E),Street Light Not Working / Repair,127,102,18,7,0,7,80.31,85.83,5.51
+v2_vs_b3,Subcategory (E2E),Street Light Not Working / Repair,127,108,17,1,1,0,85.83,85.83,0.0
+v2_vs_v1,Subcategory (E2E),Waste Disposal & Segregation,10,1,8,0,1,-1,20.0,10.0,-10.0
+v2_vs_b3,Subcategory (E2E),Waste Disposal & Segregation,10,0,9,1,0,1,0.0,10.0,10.0
+v2_vs_v1,Subcategory (E2E),Water Leakage,5,2,3,0,0,0,40.0,40.0,0.0
+v2_vs_b3,Subcategory (E2E),Water Leakage,5,2,3,0,0,0,40.0,40.0,0.0
+v2_vs_v1,Subcategory (E2E),Water Pipeline Damage / Maintenance,2,0,2,0,0,0,0.0,0.0,0.0
+v2_vs_b3,Subcategory (E2E),Water Pipeline Damage / Maintenance,2,0,2,0,0,0,0.0,0.0,0.0
+v2_vs_v1,Subcategory (E2E),Water Pollution,7,2,5,0,0,0,28.57,28.57,0.0
+v2_vs_b3,Subcategory (E2E),Water Pollution,7,2,4,0,1,-1,42.86,28.57,-14.29
+v2_vs_v1,Subcategory (E2E),Water Supply Interruption,24,23,1,0,0,0,95.83,95.83,0.0
+v2_vs_b3,Subcategory (E2E),Water Supply Interruption,24,22,1,1,0,1,91.67,95.83,4.17

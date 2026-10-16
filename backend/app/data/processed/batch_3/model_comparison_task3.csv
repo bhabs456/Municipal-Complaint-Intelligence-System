@@ -1,0 +1,4 @@
+approach,accuracy,macro_f1,weighted_f1,train_time_sec,inf_latency_ms,taxonomy_constraint
+Global 24-Class LinearSVC,0.7181818181818181,0.47273541516183465,0.7035625733750168,1.27,0.0245,None (May output invalid category/subcategory combo)
+Category-Aware Hierarchical (Oracle Category Setting),0.7818181818181819,0.5714944929306348,0.7689865730472498,0.57,0.5494,Strictly Constrained (100% Valid Taxonomy)
+Category-Aware Hierarchical (Realistic End-to-End Setting),0.7181818181818181,0.48111875325851255,0.705218850295094,0.57,0.5452,Strictly Constrained (100% Valid Taxonomy)

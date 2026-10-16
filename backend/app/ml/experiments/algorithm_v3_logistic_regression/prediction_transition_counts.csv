@@ -1,0 +1,3 @@
+comparison,task,both_correct,both_incorrect,fixed_by_candidate,regressed_by_candidate,net_delta_correct,baseline_accuracy,candidate_accuracy
+candidate_vs_v2,Task 3 (Subcategory E2E),853,358,32,46,-14,69.74,68.66
+candidate_vs_b3,Task 3 (Subcategory E2E),822,306,63,98,-35,71.37,68.66

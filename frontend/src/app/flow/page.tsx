@@ -30,7 +30,7 @@ const stages: Stage[] = [
     ],
   },
   {
-    n: 2, title: "Data & AI/ML development", status: "next",
+    n: 2, title: "Data & AI/ML development", status: "done",
     question: "How will the intelligence work?",
     purpose: "Prepare the complaint dataset, then build the classification, duplicate detection and priority components.",
     phases: [
@@ -55,7 +55,7 @@ const stages: Stage[] = [
     ],
   },
   {
-    n: 3, title: "System development & integration", status: "pending",
+    n: 3, title: "System development & integration", status: "next",
     question: "How will all components work together?",
     purpose: "Connect the AI/ML parts with the backend, database and interfaces to make one working application.",
     phases: [
@@ -100,14 +100,20 @@ const C = {
 const label: Record<Status, string> = { done: "Completed", next: "Next up", pending: "Pending" };
 const sans = "system-ui, sans-serif";
 
-const phaseStatus = (s: Stage, i: number): Status =>
-  s.status === "done" ? "done" : s.status === "next" && i === 0 ? "next" : "pending";
+const phaseStatus = (s: Stage, i: number): Status => {
+  if (s.status === "done") return "done";
+  if (s.n === 3) {
+    if (i === 0) return "next";
+    return "pending";
+  }
+  return "pending";
+};
 
 export default function MunicipalRoadmap() {
-  const [active, setActive] = useState(2);
-  const [open, setOpen] = useState<string | null>("2.1");
+  const [active, setActive] = useState(3);
+  const [open, setOpen] = useState<string | null>("3.1");
   const total = stages.reduce((a, s) => a + s.phases.length, 0);
-  const doneCount = stages.filter((s) => s.status === "done").reduce((a, s) => a + s.phases.length, 0);
+  const doneCount = 14 + 18; // Stage 1 (14) + Stage 2 (18: 2.1-2.18 complete)
   const stage = stages[active - 1];
 
   return (
@@ -132,7 +138,7 @@ export default function MunicipalRoadmap() {
         <div className="mt-6 p-4 rounded-lg" style={{ background: C.card, border: `1px solid ${C.rule}`, fontFamily: sans }}>
           <div className="flex flex-wrap justify-between gap-1 text-sm mb-2">
             <span>{doneCount} of {total} phases complete</span>
-            <span className="font-semibold" style={{ color: C.next }}>Now: Phase 2.1 inspected & documented, next up: 2.2 data cleaning</span>
+            <span className="font-semibold" style={{ color: C.next }}>Now: Stage 2 complete (18/18 AI/ML phases validated), next up: Stage 3 system integration (3.1 backend foundation)</span>
           </div>
           <div className="h-2 rounded-full overflow-hidden" style={{ background: C.rule }}>
             <div key={doneCount} className="mc-bar h-full rounded-full" style={{ width: `${(doneCount / total) * 100}%`, background: C.done }} />

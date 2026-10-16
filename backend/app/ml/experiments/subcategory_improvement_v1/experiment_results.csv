@@ -1,0 +1,14 @@
+experiment_id,architecture,feature_config,c_param,class_weight,val_acc,val_macro_f1,val_weighted_f1,notes
+EXP-G1,Global 24-Class,"Word (1,2) min_df=2 max_df=0.9 sublinear_tf=True",1.0,None,0.6993,0.4736,0.6905,Diagnostic Global 24-class benchmark
+EXP-G2,Global 24-Class,"Word (1,3) min_df=2 max_df=0.9 sublinear_tf=True",1.0,None,0.7039,0.4696,0.6953,Diagnostic Global 24-class benchmark
+EXP-G3,Global 24-Class,"Word (1,2) C=0.5 sublinear_tf=True",0.5,None,0.7115,0.4681,0.7005,Diagnostic Global 24-class benchmark
+EXP-G4,Global 24-Class,"Word (1,2) C=2.0 sublinear_tf=True",2.0,None,0.6864,0.4795,0.6818,Diagnostic Global 24-class benchmark
+EXP-G5,Global 24-Class,"Word (1,2) C=1.0 class_weight='balanced'",1.0,balanced,0.6758,0.4885,0.6833,Diagnostic Global 24-class benchmark
+EXP-G6,Global 24-Class,"Char_wb (3,5) min_df=5 sublinear_tf=True",1.0,None,0.6872,0.4521,0.6799,Diagnostic Global 24-class benchmark
+EXP-G7,Global 24-Class,"Char (3,6) min_df=5 sublinear_tf=True",1.0,None,0.6993,0.4703,0.6914,Diagnostic Global 24-class benchmark
+EXP-G8,Global 24-Class,"Union: Word(1,2) + Char_wb(3,5)",1.0,None,0.6788,0.4622,0.6731,Diagnostic Global 24-class benchmark
+EXP-G9,Global 24-Class,"Union: Word(1,3) + Char_wb(3,5)",1.0,None,0.6849,0.4692,0.6793,Diagnostic Global 24-class benchmark
+EXP-H1,Hierarchical Pipeline,"Standard Word(1,2) Baseline C=1.0 everywhere",1.0,None,0.7084,0.4786,0.7,v2 baseline configuration
+EXP-H2,Hierarchical Pipeline,"Word(1,3) for Task 2 + Word(1,3) for all branches",1.0,None,0.7153,0.4631,0.7054,Extended n-gram depth
+EXP-H3,Branch-Customized Hierarchical,"Word(1,3) Task 2 + Specialized Branch TF-IDF (Char/Word/Union)",Branch-Specific,None,0.7168,0.4866,0.7078,Best validation accuracy candidate (71.68%)
+EXP-ORACLE,Oracle Diagnostic (Upper Bound),True Category Routing + Specialized Branch TF-IDF,Branch-Specific,None,0.7866,0.6099,0.779,Theoretical branch upper bound on validation

@@ -1,0 +1,40 @@
+task,class_name,parent_category,is_majority_downsampled_class,test_support,baseline_tp,baseline_fp,baseline_fn,baseline_precision,baseline_recall,baseline_f1,retrained_tp,retrained_fp,retrained_fn,retrained_precision,retrained_recall,retrained_f1,delta_tp,delta_fp,delta_fn,delta_precision,delta_recall,delta_f1,transition_both_correct,transition_both_incorrect,transition_v1_fixed,transition_v1_regressed,transition_net_correct_delta
+Task 2 (Category),Pollution,Pollution,False,49,30,3,19,0.9091,0.6122,0.7317,30,5,19,0.8571,0.6122,0.7143,0,2,0,-0.0519,0.0,-0.0174,29,18,1,1,0
+Task 2 (Category),Roads & Footpaths,Roads & Footpaths,False,510,465,57,45,0.8908,0.9118,0.9012,455,63,55,0.8784,0.8922,0.8852,-10,6,10,-0.0124,-0.0196,-0.0159,452,42,3,13,-10
+Task 2 (Category),Sewage & Drainage,Sewage & Drainage,False,68,34,11,34,0.7556,0.5,0.6018,44,30,24,0.5946,0.6471,0.6197,10,19,-10,-0.161,0.1471,0.0179,34,24,10,0,10
+Task 2 (Category),Street Lighting & Electricity,Street Lighting & Electricity,False,168,157,5,11,0.9691,0.9345,0.9515,156,9,12,0.9455,0.9286,0.9369,-1,4,1,-0.0237,-0.006,-0.0146,155,10,1,2,-1
+Task 2 (Category),Waste & Sanitation,Waste & Sanitation,False,461,438,61,23,0.8778,0.9501,0.9125,426,41,35,0.9122,0.9241,0.9181,-12,-20,12,0.0345,-0.026,0.0056,424,21,2,14,-12
+Task 2 (Category),Water Supply,Water Supply,False,33,25,3,8,0.8929,0.7576,0.8197,26,4,7,0.8667,0.7879,0.8254,1,1,-1,-0.0262,0.0303,0.0057,25,7,1,0,1
+Task 3 (Subcategory E2E),Air Pollution,Pollution,False,13,2,3,11,0.4,0.1538,0.2222,2,5,11,0.2857,0.1538,0.2,0,2,0,-0.1143,0.0,-0.0222,2,11,0,0,0
+Task 3 (Subcategory E2E),Drain Blockage / Desilting,Sewage & Drainage,False,26,8,11,18,0.4211,0.3077,0.3556,11,26,15,0.2973,0.4231,0.3492,3,15,-3,-0.1238,0.1154,-0.0063,8,15,3,0,3
+Task 3 (Subcategory E2E),Electrical Pole / Transformer Issues,Street Lighting & Electricity,False,6,3,0,3,1.0,0.5,0.6667,3,0,3,1.0,0.5,0.6667,0,0,0,0.0,0.0,0.0,3,3,0,0,0
+Task 3 (Subcategory E2E),Electricity Supply,Street Lighting & Electricity,False,19,18,4,1,0.8182,0.9474,0.878,19,4,0,0.8261,1.0,0.9048,1,0,-1,0.0079,0.0526,0.0267,18,0,1,0,1
+Task 3 (Subcategory E2E),Footpath Damage / Repair,Roads & Footpaths,False,65,56,17,9,0.7671,0.8615,0.8116,55,25,10,0.6875,0.8462,0.7586,-1,8,1,-0.0796,-0.0154,-0.053,55,9,0,1,-1
+Task 3 (Subcategory E2E),Garbage Collection / Removal,Waste & Sanitation,False,39,20,11,19,0.6452,0.5128,0.5714,31,49,8,0.3875,0.7949,0.521,11,38,-11,-0.2577,0.2821,-0.0504,20,8,11,0,11
+Task 3 (Subcategory E2E),Garbage Dumping,Waste & Sanitation,True,337,313,110,24,0.74,0.9288,0.8237,235,43,102,0.8453,0.6973,0.7642,-78,-67,78,0.1054,-0.2315,-0.0595,235,24,0,78,-78
+Task 3 (Subcategory E2E),Land / Waste Pollution,Pollution,False,2,0,0,2,0.0,0.0,0.0,0,0,2,0.0,0.0,0.0,0,0,0,0.0,0.0,0.0,0,2,0,0,0
+Task 3 (Subcategory E2E),New Water Connection / Pipeline,Water Supply,False,2,0,0,2,0.0,0.0,0.0,0,0,2,0.0,0.0,0.0,0,0,0,0.0,0.0,0.0,0,2,0,0,0
+Task 3 (Subcategory E2E),Noise Pollution,Pollution,False,27,23,1,4,0.9583,0.8519,0.902,23,2,4,0.92,0.8519,0.8846,0,1,0,-0.0383,0.0,-0.0173,23,4,0,0,0
+Task 3 (Subcategory E2E),Potholes & Road Damage,Roads & Footpaths,True,232,152,90,80,0.6281,0.6552,0.6414,121,62,111,0.6612,0.5216,0.5831,-31,-28,31,0.0331,-0.1336,-0.0582,114,73,7,38,-31
+Task 3 (Subcategory E2E),Road Repair / Construction,Roads & Footpaths,True,191,122,80,69,0.604,0.6387,0.6209,130,114,61,0.5328,0.6806,0.5977,8,34,-8,-0.0712,0.0419,-0.0232,111,50,19,11,8
+Task 3 (Subcategory E2E),Road Waterlogging,Roads & Footpaths,False,22,2,3,20,0.4,0.0909,0.1481,2,9,20,0.1818,0.0909,0.1212,0,6,0,-0.2182,0.0,-0.0269,1,19,1,1,0
+Task 3 (Subcategory E2E),Sewer Blockage / Overflow,Sewage & Drainage,False,13,4,2,9,0.6667,0.3077,0.4211,5,2,8,0.7143,0.3846,0.5,1,0,-1,0.0476,0.0769,0.0789,4,8,1,0,1
+Task 3 (Subcategory E2E),Sewer Line Repair / Maintenance,Sewage & Drainage,False,20,11,8,9,0.5789,0.55,0.5641,14,15,6,0.4828,0.7,0.5714,3,7,-3,-0.0962,0.15,0.0073,11,6,3,0,3
+Task 3 (Subcategory E2E),Storm Water Drainage / Waterlogging,Sewage & Drainage,False,9,1,0,8,1.0,0.1111,0.2,1,0,8,1.0,0.1111,0.2,0,0,0,0.0,0.0,0.0,1,8,0,0,0
+Task 3 (Subcategory E2E),Street / Public Area Cleaning,Waste & Sanitation,False,75,43,2,32,0.9556,0.5733,0.7167,53,48,22,0.5248,0.7067,0.6023,10,46,-10,-0.4308,0.1333,-0.1144,43,22,10,0,10
+Task 3 (Subcategory E2E),Street Light Installation,Street Lighting & Electricity,False,16,6,5,10,0.5455,0.375,0.4444,12,13,4,0.48,0.75,0.5854,6,8,-6,-0.0655,0.375,0.1409,6,4,6,0,6
+Task 3 (Subcategory E2E),Street Light Not Working / Repair,Street Lighting & Electricity,True,127,109,17,18,0.8651,0.8583,0.8617,102,12,25,0.8947,0.8031,0.8465,-7,-5,7,0.0297,-0.0551,-0.0152,101,17,1,8,-7
+Task 3 (Subcategory E2E),Waste Disposal & Segregation,Waste & Sanitation,False,10,0,0,10,0.0,0.0,0.0,2,6,8,0.25,0.2,0.2222,2,6,-2,0.25,0.2,0.2222,0,8,2,0,2
+Task 3 (Subcategory E2E),Water Leakage,Water Supply,False,5,2,2,3,0.5,0.4,0.4444,2,2,3,0.5,0.4,0.4444,0,0,0,0.0,0.0,0.0,2,3,0,0,0
+Task 3 (Subcategory E2E),Water Pipeline Damage / Maintenance,Water Supply,False,2,0,0,2,0.0,0.0,0.0,0,0,2,0.0,0.0,0.0,0,0,0,0.0,0.0,0.0,0,2,0,0,0
+Task 3 (Subcategory E2E),Water Pollution,Pollution,False,7,3,1,4,0.75,0.4286,0.5455,2,1,5,0.6667,0.2857,0.4,-1,0,1,-0.0833,-0.1429,-0.1455,2,4,0,1,-1
+Task 3 (Subcategory E2E),Water Supply Interruption,Water Supply,False,24,22,2,2,0.9167,0.9167,0.9167,23,3,1,0.8846,0.9583,0.92,1,1,-1,-0.0321,0.0417,0.0033,22,1,1,0,1
+Department Assignment,Drainage Department,N/A,False,57,16,9,41,0.64,0.2807,0.3902,25,24,32,0.5102,0.4386,0.4717,9,15,-9,-0.1298,0.1579,0.0815,16,32,9,0,9
+Department Assignment,Electrical Department,N/A,False,25,23,2,2,0.92,0.92,0.92,23,3,2,0.8846,0.92,0.902,0,1,0,-0.0354,0.0,-0.018,22,1,1,1,0
+Department Assignment,Pollution Control Department,N/A,False,49,30,3,19,0.9091,0.6122,0.7317,30,5,19,0.8571,0.6122,0.7143,0,2,0,-0.0519,0.0,-0.0174,29,18,1,1,0
+Department Assignment,Roads Department,N/A,False,488,446,71,42,0.8627,0.9139,0.8876,437,70,51,0.8619,0.8955,0.8784,-9,-1,9,-0.0007,-0.0184,-0.0092,434,39,3,12,-9
+Department Assignment,Sanitation Department,N/A,False,75,43,2,32,0.9556,0.5733,0.7167,53,48,22,0.5248,0.7067,0.6023,10,46,-10,-0.4308,0.1333,-0.1144,43,22,10,0,10
+Department Assignment,Sewerage Department,N/A,False,33,17,8,16,0.68,0.5152,0.5862,21,15,12,0.5833,0.6364,0.6087,4,7,-4,-0.0967,0.1212,0.0225,17,12,4,0,4
+Department Assignment,Street Lighting Department,N/A,False,143,130,7,13,0.9489,0.9091,0.9286,129,10,14,0.9281,0.9021,0.9149,-1,3,1,-0.0208,-0.007,-0.0137,128,12,1,2,-1
+Department Assignment,Waste Management Department,N/A,False,386,370,84,16,0.815,0.9585,0.881,328,38,58,0.8962,0.8497,0.8723,-42,-46,42,0.0812,-0.1088,-0.0086,328,16,0,42,-42
+Department Assignment,Water Supply Department,N/A,False,33,25,3,8,0.8929,0.7576,0.8197,26,4,7,0.8667,0.7879,0.8254,1,1,-1,-0.0262,0.0303,0.0057,25,7,1,0,1

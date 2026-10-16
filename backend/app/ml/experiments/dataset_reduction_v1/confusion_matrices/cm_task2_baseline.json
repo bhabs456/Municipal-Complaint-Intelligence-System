@@ -1,0 +1,60 @@
+{
+  "labels": [
+    "Pollution",
+    "Roads & Footpaths",
+    "Sewage & Drainage",
+    "Street Lighting & Electricity",
+    "Waste & Sanitation",
+    "Water Supply"
+  ],
+  "matrix": [
+    [
+      30,
+      6,
+      1,
+      1,
+      11,
+      0
+    ],
+    [
+      1,
+      465,
+      6,
+      3,
+      34,
+      1
+    ],
+    [
+      1,
+      24,
+      34,
+      0,
+      8,
+      1
+    ],
+    [
+      0,
+      7,
+      1,
+      157,
+      2,
+      1
+    ],
+    [
+      1,
+      19,
+      3,
+      0,
+      438,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      1,
+      6,
+      25
+    ]
+  ]
+}

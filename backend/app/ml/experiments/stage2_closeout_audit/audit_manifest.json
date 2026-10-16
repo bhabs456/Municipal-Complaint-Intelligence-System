@@ -1,0 +1,107 @@
+{
+  "audit_name": "MCIS Stage 2 Final Verification, Audit and Project Closeout",
+  "audit_timestamp": "2026-10-16T18:30:57Z",
+  "overall_status": "PASS (Ready for Stage 3 Transition)",
+  "invariants": {
+    "raw_dataset_sha256": "d951dbb484532421801f6cbd7550edaa6f9ab143da7c4d0e835ba574e4e6d5ac",
+    "raw_dataset_rows": 16071,
+    "taxonomy_categories": 6,
+    "taxonomy_subcategories": 24,
+    "taxonomy_departments": 9,
+    "split_leakage_duplicate_groups": 0
+  },
+  "artifacts_audited": 19,
+  "artifacts_passed": 19,
+  "reconciled_metrics": [
+    {
+      "model_name": "Batch 3 Baseline (Uncapped LinearSVC)",
+      "test_set_id": "common_test_v2 (1,289 rows)",
+      "sample_count": 1289,
+      "category_accuracy": 0.8914,
+      "oracle_subcat_accuracy": 0.789,
+      "oracle_subcat_macro_f1": 0.6109,
+      "e2e_subcat_accuracy": 0.7137,
+      "e2e_subcat_macro_f1": 0.4898,
+      "e2e_subcat_weighted_f1": 0.6961,
+      "department_accuracy": 0.8534,
+      "department_macro_f1": 0.7624,
+      "department_weighted_f1": 0.8434,
+      "authoritative_status": "Historical Benchmark (Uncapped majority training)"
+    },
+    {
+      "model_name": "Dataset Reduction v1 (Hard-Cap 600 LinearSVC)",
+      "test_set_id": "common_test_v2 (1,289 rows)",
+      "sample_count": 1289,
+      "category_accuracy": 0.8821,
+      "oracle_subcat_accuracy": 0.7324,
+      "oracle_subcat_macro_f1": 0.6207,
+      "e2e_subcat_accuracy": 0.6579,
+      "e2e_subcat_macro_f1": 0.4851,
+      "e2e_subcat_weighted_f1": 0.6572,
+      "department_accuracy": 0.8317,
+      "department_macro_f1": 0.7544,
+      "department_weighted_f1": 0.8325,
+      "authoritative_status": "Superseded by v2 (Excessive majority pruning)"
+    },
+    {
+      "model_name": "Dataset Reduction v2 (Soft-Cap LinearSVC)",
+      "test_set_id": "common_test_v2 (1,289 rows)",
+      "sample_count": 1289,
+      "category_accuracy": 0.8922,
+      "oracle_subcat_accuracy": 0.7727,
+      "oracle_subcat_macro_f1": 0.621,
+      "e2e_subcat_accuracy": 0.6974,
+      "e2e_subcat_macro_f1": 0.49,
+      "e2e_subcat_weighted_f1": 0.6873,
+      "department_accuracy": 0.8534,
+      "department_macro_f1": 0.7695,
+      "department_weighted_f1": 0.8476,
+      "authoritative_status": "RECOMMENDED PRIMARY CANDIDATE (Department parity, top cat acc)"
+    },
+    {
+      "model_name": "Experiment v3 (Balanced Logistic Regression)",
+      "test_set_id": "common_test_v2 (1,289 rows)",
+      "sample_count": 1289,
+      "category_accuracy": 0.8875,
+      "oracle_subcat_accuracy": 0.7611,
+      "oracle_subcat_macro_f1": 0.5916,
+      "e2e_subcat_accuracy": 0.6866,
+      "e2e_subcat_macro_f1": 0.4991,
+      "e2e_subcat_weighted_f1": 0.6849,
+      "department_accuracy": 0.8487,
+      "department_macro_f1": 0.7786,
+      "department_weighted_f1": 0.8481,
+      "authoritative_status": "RECOMMENDED BACKUP CANDIDATE (Top Macro-F1, native posteriors)"
+    },
+    {
+      "model_name": "Subcategory Improvement v1 (Branch-Customized LinearSVC)",
+      "test_set_id": "common_test_v2 (1,289 rows)",
+      "sample_count": 1289,
+      "category_accuracy": 0.8891,
+      "oracle_subcat_accuracy": 0.7742,
+      "oracle_subcat_macro_f1": 0.6185,
+      "e2e_subcat_accuracy": 0.699,
+      "e2e_subcat_macro_f1": 0.4862,
+      "e2e_subcat_weighted_f1": 0.6872,
+      "department_accuracy": 0.8518,
+      "department_macro_f1": 0.7665,
+      "department_weighted_f1": 0.8465,
+      "authoritative_status": "Experimental Variant (Tied with v2, delta +0.0016 not sig)"
+    }
+  ],
+  "authoritative_model_selection": {
+    "primary": "Dataset Reduction v2 (Soft-Cap Calibrated LinearSVC)",
+    "backup": "Experiment v3 (Balanced Logistic Regression)",
+    "historical_baseline": "Batch 3 Baseline (Uncapped LinearSVC)",
+    "task1_civic_filter": "Batch 3 Task 1 Classifier (task1_civic_classifier.joblib)"
+  },
+  "reports_generated": [
+    "final_closeout_report.md",
+    "dataset_integrity_report.md",
+    "artifact_integrity_report.md",
+    "verified_metrics_comparison.csv",
+    "application_test_results.md",
+    "research_documentation_audit.md",
+    "audit_manifest.json"
+  ]
+}

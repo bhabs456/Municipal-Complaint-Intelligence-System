@@ -1,0 +1,25 @@
+category,subcategory,department
+Pollution,Air Pollution,Pollution Control Department
+Pollution,Land / Waste Pollution,Pollution Control Department
+Pollution,Noise Pollution,Pollution Control Department
+Pollution,Water Pollution,Pollution Control Department
+Roads & Footpaths,Footpath Damage / Repair,Roads Department
+Roads & Footpaths,Potholes & Road Damage,Roads Department
+Roads & Footpaths,Road Repair / Construction,Roads Department
+Roads & Footpaths,Road Waterlogging,Drainage Department
+Sewage & Drainage,Drain Blockage / Desilting,Drainage Department
+Sewage & Drainage,Sewer Blockage / Overflow,Sewerage Department
+Sewage & Drainage,Sewer Line Repair / Maintenance,Sewerage Department
+Sewage & Drainage,Storm Water Drainage / Waterlogging,Drainage Department
+Street Lighting & Electricity,Electrical Pole / Transformer Issues,Electrical Department
+Street Lighting & Electricity,Electricity Supply,Electrical Department
+Street Lighting & Electricity,Street Light Installation,Street Lighting Department
+Street Lighting & Electricity,Street Light Not Working / Repair,Street Lighting Department
+Waste & Sanitation,Garbage Collection / Removal,Waste Management Department
+Waste & Sanitation,Garbage Dumping,Waste Management Department
+Waste & Sanitation,Street / Public Area Cleaning,Sanitation Department
+Waste & Sanitation,Waste Disposal & Segregation,Waste Management Department
+Water Supply,New Water Connection / Pipeline,Water Supply Department
+Water Supply,Water Leakage,Water Supply Department
+Water Supply,Water Pipeline Damage / Maintenance,Water Supply Department
+Water Supply,Water Supply Interruption,Water Supply Department

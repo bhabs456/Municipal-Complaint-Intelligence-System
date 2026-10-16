@@ -1,0 +1,129 @@
+{
+  "version": "1.0.0",
+  "locked": true,
+  "category_count": 6,
+  "subcategory_count": 24,
+  "department_count": 9,
+  "taxonomy": [
+    {
+      "category": "Pollution",
+      "subcategory": "Air Pollution",
+      "department": "Pollution Control Department"
+    },
+    {
+      "category": "Pollution",
+      "subcategory": "Land / Waste Pollution",
+      "department": "Pollution Control Department"
+    },
+    {
+      "category": "Pollution",
+      "subcategory": "Noise Pollution",
+      "department": "Pollution Control Department"
+    },
+    {
+      "category": "Pollution",
+      "subcategory": "Water Pollution",
+      "department": "Pollution Control Department"
+    },
+    {
+      "category": "Roads & Footpaths",
+      "subcategory": "Footpath Damage / Repair",
+      "department": "Roads Department"
+    },
+    {
+      "category": "Roads & Footpaths",
+      "subcategory": "Potholes & Road Damage",
+      "department": "Roads Department"
+    },
+    {
+      "category": "Roads & Footpaths",
+      "subcategory": "Road Repair / Construction",
+      "department": "Roads Department"
+    },
+    {
+      "category": "Roads & Footpaths",
+      "subcategory": "Road Waterlogging",
+      "department": "Drainage Department"
+    },
+    {
+      "category": "Sewage & Drainage",
+      "subcategory": "Drain Blockage / Desilting",
+      "department": "Drainage Department"
+    },
+    {
+      "category": "Sewage & Drainage",
+      "subcategory": "Sewer Blockage / Overflow",
+      "department": "Sewerage Department"
+    },
+    {
+      "category": "Sewage & Drainage",
+      "subcategory": "Sewer Line Repair / Maintenance",
+      "department": "Sewerage Department"
+    },
+    {
+      "category": "Sewage & Drainage",
+      "subcategory": "Storm Water Drainage / Waterlogging",
+      "department": "Drainage Department"
+    },
+    {
+      "category": "Street Lighting & Electricity",
+      "subcategory": "Electrical Pole / Transformer Issues",
+      "department": "Electrical Department"
+    },
+    {
+      "category": "Street Lighting & Electricity",
+      "subcategory": "Electricity Supply",
+      "department": "Electrical Department"
+    },
+    {
+      "category": "Street Lighting & Electricity",
+      "subcategory": "Street Light Installation",
+      "department": "Street Lighting Department"
+    },
+    {
+      "category": "Street Lighting & Electricity",
+      "subcategory": "Street Light Not Working / Repair",
+      "department": "Street Lighting Department"
+    },
+    {
+      "category": "Waste & Sanitation",
+      "subcategory": "Garbage Collection / Removal",
+      "department": "Waste Management Department"
+    },
+    {
+      "category": "Waste & Sanitation",
+      "subcategory": "Garbage Dumping",
+      "department": "Waste Management Department"
+    },
+    {
+      "category": "Waste & Sanitation",
+      "subcategory": "Street / Public Area Cleaning",
+      "department": "Sanitation Department"
+    },
+    {
+      "category": "Waste & Sanitation",
+      "subcategory": "Waste Disposal & Segregation",
+      "department": "Waste Management Department"
+    },
+    {
+      "category": "Water Supply",
+      "subcategory": "New Water Connection / Pipeline",
+      "department": "Water Supply Department"
+    },
+    {
+      "category": "Water Supply",
+      "subcategory": "Water Leakage",
+      "department": "Water Supply Department"
+    },
+    {
+      "category": "Water Supply",
+      "subcategory": "Water Pipeline Damage / Maintenance",
+      "department": "Water Supply Department"
+    },
+    {
+      "category": "Water Supply",
+      "subcategory": "Water Supply Interruption",
+      "department": "Water Supply Department"
+    }
+  ]
+}

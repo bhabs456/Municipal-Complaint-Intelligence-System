@@ -1,0 +1,25 @@
+task,class_name,parent_category,test_support,candidate_precision,candidate_recall,candidate_f1,v2_precision,v2_recall,v2_f1,batch_3_f1,delta_f1_vs_v2,delta_recall_vs_v2,delta_f1_vs_b3
+Task 3 (Subcategory E2E),Air Pollution,Pollution,13,0.1111,0.0769,0.0909,0.5,0.1538,0.2353,0.2222,-0.1444,-0.0769,-0.1313
+Task 3 (Subcategory E2E),Drain Blockage / Desilting,Sewage & Drainage,26,0.6667,0.2308,0.3429,0.3462,0.3462,0.3462,0.3556,-0.0033,-0.1154,-0.0127
+Task 3 (Subcategory E2E),Electrical Pole / Transformer Issues,Street Lighting & Electricity,6,1.0,0.1667,0.2857,1.0,0.5,0.6667,0.6667,-0.381,-0.3333,-0.381
+Task 3 (Subcategory E2E),Electricity Supply,Street Lighting & Electricity,19,0.7308,1.0,0.8444,0.7917,1.0,0.8837,0.878,-0.0393,0.0,-0.0336
+Task 3 (Subcategory E2E),Footpath Damage / Repair,Roads & Footpaths,65,0.58,0.8923,0.703,0.7333,0.8462,0.7857,0.8116,-0.0827,0.0462,-0.1086
+Task 3 (Subcategory E2E),Garbage Collection / Removal,Waste & Sanitation,39,0.378,0.7949,0.5124,0.4746,0.7179,0.5714,0.5714,-0.059,0.0769,-0.059
+Task 3 (Subcategory E2E),Garbage Dumping,Waste & Sanitation,337,0.8103,0.7478,0.7778,0.8158,0.8279,0.8218,0.8237,-0.044,-0.0801,-0.0459
+Task 3 (Subcategory E2E),Land / Waste Pollution,Pollution,2,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Task 3 (Subcategory E2E),New Water Connection / Pipeline,Water Supply,2,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Task 3 (Subcategory E2E),Noise Pollution,Pollution,27,0.8846,0.8519,0.8679,0.92,0.8519,0.8846,0.902,-0.0167,0.0,-0.034
+Task 3 (Subcategory E2E),Potholes & Road Damage,Roads & Footpaths,232,0.6402,0.5905,0.6143,0.649,0.5819,0.6136,0.6414,0.0007,0.0086,-0.027
+Task 3 (Subcategory E2E),Road Repair / Construction,Roads & Footpaths,191,0.6064,0.5969,0.6016,0.5477,0.6911,0.6111,0.6209,-0.0095,-0.0942,-0.0193
+Task 3 (Subcategory E2E),Road Waterlogging,Roads & Footpaths,22,0.2571,0.4091,0.3158,0.1667,0.0455,0.0714,0.1481,0.2444,0.3636,0.1676
+Task 3 (Subcategory E2E),Sewer Blockage / Overflow,Sewage & Drainage,13,0.5,0.3846,0.4348,0.6667,0.3077,0.4211,0.4211,0.0137,0.0769,0.0137
+Task 3 (Subcategory E2E),Sewer Line Repair / Maintenance,Sewage & Drainage,20,0.5263,0.5,0.5128,0.5,0.7,0.5833,0.5641,-0.0705,-0.2,-0.0513
+Task 3 (Subcategory E2E),Storm Water Drainage / Waterlogging,Sewage & Drainage,9,0.2,0.1111,0.1429,1.0,0.1111,0.2,0.2,-0.0571,0.0,-0.0571
+Task 3 (Subcategory E2E),Street / Public Area Cleaning,Waste & Sanitation,75,0.7015,0.6267,0.662,0.7273,0.64,0.6809,0.7167,-0.0189,-0.0133,-0.0547
+Task 3 (Subcategory E2E),Street Light Installation,Street Lighting & Electricity,16,0.5714,0.5,0.5333,0.6,0.5625,0.5806,0.4444,-0.0473,-0.0625,0.0889
+Task 3 (Subcategory E2E),Street Light Not Working / Repair,Street Lighting & Electricity,127,0.8421,0.8819,0.8615,0.872,0.8583,0.8651,0.8617,-0.0035,0.0236,-0.0001
+Task 3 (Subcategory E2E),Waste Disposal & Segregation,Waste & Sanitation,10,0.2222,0.2,0.2105,0.3333,0.1,0.1538,0.0,0.0567,0.1,0.2105
+Task 3 (Subcategory E2E),Water Leakage,Water Supply,5,0.5,0.2,0.2857,0.5,0.4,0.4444,0.4444,-0.1587,-0.2,-0.1587
+Task 3 (Subcategory E2E),Water Pipeline Damage / Maintenance,Water Supply,2,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Task 3 (Subcategory E2E),Water Pollution,Pollution,7,0.6667,0.2857,0.4,0.6667,0.2857,0.4,0.5455,0.0,0.0,-0.1455
+Task 3 (Subcategory E2E),Water Supply Interruption,Water Supply,24,0.8462,0.9167,0.88,0.92,0.9583,0.9388,0.9167,-0.0588,-0.0417,-0.0367

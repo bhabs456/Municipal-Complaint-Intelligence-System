@@ -1,0 +1,25 @@
+category,subcategory,department,scope_filtered_count,scope_filtered_pct,training_reduced_count,training_reduced_pct
+Pollution,Air Pollution,Pollution Control Department,132,1.0,105,1.88
+Pollution,Land / Waste Pollution,Pollution Control Department,23,0.18,18,0.32
+Pollution,Noise Pollution,Pollution Control Department,264,2.01,211,3.78
+Pollution,Water Pollution,Pollution Control Department,75,0.57,62,1.11
+Roads & Footpaths,Footpath Damage / Repair,Roads Department,645,4.91,485,8.68
+Roads & Footpaths,Potholes & Road Damage,Roads Department,2354,17.91,600,10.74
+Roads & Footpaths,Road Repair / Construction,Roads Department,1948,14.82,600,10.74
+Roads & Footpaths,Road Waterlogging,Drainage Department,226,1.72,177,3.17
+Sewage & Drainage,Drain Blockage / Desilting,Drainage Department,270,2.05,209,3.74
+Sewage & Drainage,Sewer Blockage / Overflow,Sewerage Department,130,0.99,102,1.83
+Sewage & Drainage,Sewer Line Repair / Maintenance,Sewerage Department,199,1.51,156,2.79
+Sewage & Drainage,Storm Water Drainage / Waterlogging,Drainage Department,90,0.68,71,1.27
+Street Lighting & Electricity,Electrical Pole / Transformer Issues,Electrical Department,62,0.47,49,0.88
+Street Lighting & Electricity,Electricity Supply,Electrical Department,194,1.48,153,2.74
+Street Lighting & Electricity,Street Light Installation,Street Lighting Department,164,1.25,131,2.35
+Street Lighting & Electricity,Street Light Not Working / Repair,Street Lighting Department,1342,10.21,600,10.74
+Waste & Sanitation,Garbage Collection / Removal,Waste Management Department,386,2.94,309,5.53
+Waste & Sanitation,Garbage Dumping,Waste Management Department,3379,25.71,600,10.74
+Waste & Sanitation,Street / Public Area Cleaning,Sanitation Department,813,6.19,596,10.67
+Waste & Sanitation,Waste Disposal & Segregation,Waste Management Department,105,0.8,80,1.43
+Water Supply,New Water Connection / Pipeline,Water Supply Department,20,0.15,16,0.29
+Water Supply,Water Leakage,Water Supply Department,56,0.43,43,0.77
+Water Supply,Water Pipeline Damage / Maintenance,Water Supply Department,22,0.17,18,0.32
+Water Supply,Water Supply Interruption,Water Supply Department,243,1.85,194,3.47

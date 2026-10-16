@@ -1,0 +1,21 @@
+{
+  "selected_architecture": "Branch-Customized Hierarchical LinearSVC",
+  "model_id": "EXP-H3",
+  "task2_category_classifier": {
+    "vectorizer": "TfidfVectorizer(ngram_range=(1,3), min_df=2, max_df=0.9, sublinear_tf=True)",
+    "estimator": "LinearSVC(C=1.0, random_state=42)"
+  },
+  "branch_models": {
+    "Pollution": "Char_wb TF-IDF (3,5) min_df=2, C=1.0",
+    "Roads & Footpaths": "Word TF-IDF (1,3) min_df=1, C=1.0",
+    "Sewage & Drainage": "Char_wb TF-IDF (3,5) min_df=2, C=1.0",
+    "Street Lighting & Electricity": "FeatureUnion(Word (1,2) + Char_wb (3,5)), C=1.0",
+    "Waste & Sanitation": "Word TF-IDF (1,2) min_df=1, C=0.5",
+    "Water Supply": "Char_wb TF-IDF (3,5) min_df=2, C=1.0"
+  },
+  "validation_metrics": {
+    "val_accuracy": 0.7168,
+    "val_macro_f1": 0.4866,
+    "val_weighted_f1": 0.7078
+  }
+}

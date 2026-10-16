@@ -1,0 +1,44 @@
+{
+  "timestamp": "2026-10-16T16:06:21.918501+00:00",
+  "random_seed": 42,
+  "raw_csv_sha256": "d951dbb484532421801f6cbd7550edaa6f9ab143da7c4d0e835ba574e4e6d5ac",
+  "task1": {
+    "model": "TF-IDF + Calibrated LinearSVC (balanced)",
+    "val_macro_f1": 0.8992154070196372,
+    "test_accuracy": 0.9533376539209333,
+    "test_macro_f1": 0.9126631238011383,
+    "test_weighted_f1": 0.9527196173759033,
+    "threshold": 0.65,
+    "coverage_at_threshold": 0.9695398574206092,
+    "accuracy_at_threshold": 0.9632352941176471
+  },
+  "task2": {
+    "model": "TF-IDF + Calibrated LinearSVC (balanced)",
+    "val_macro_f1": 0.8209266921257988,
+    "test_accuracy": 0.8906976744186047,
+    "test_macro_f1": 0.8180936698986798,
+    "test_weighted_f1": 0.8866561606222239,
+    "threshold": 0.5,
+    "coverage_at_threshold": 0.9635658914728682,
+    "accuracy_at_threshold": 0.910699919549477
+  },
+  "task3": {
+    "model": "Category-Aware Hierarchical LinearSVC Bundle (6 branches)",
+    "val_macro_f1_oracle": 0.5714944929306348,
+    "val_macro_f1_e2e": 0.48111875325851255,
+    "test_accuracy_oracle": 0.7891472868217054,
+    "test_macro_f1_oracle": 0.6118883509543352,
+    "test_accuracy_e2e": 0.7131782945736435,
+    "test_macro_f1_e2e": 0.48789498413669,
+    "test_weighted_f1_e2e": 0.6954519438659184,
+    "threshold": 0.4,
+    "coverage_at_threshold": 0.9883720930232558,
+    "accuracy_at_threshold": 0.7192156862745098
+  },
+  "department_assignment": {
+    "approach": "Deterministic Lookup from (predicted_category, predicted_subcategory)",
+    "test_accuracy": 0.8527131782945736,
+    "test_macro_f1": 0.7613021839827562,
+    "test_weighted_f1": 0.8427068473008885
+  }
+}

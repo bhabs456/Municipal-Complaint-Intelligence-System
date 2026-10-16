@@ -1,0 +1,26 @@
+{
+  "experiment_id": "algorithm_v3_logistic_regression",
+  "timestamp": "2026-10-16T17:56:50.043434+00:00",
+  "status": "COMPLETED",
+  "raw_csv_sha256": "d951dbb484532421801f6cbd7550edaa6f9ab143da7c4d0e835ba574e4e6d5ac",
+  "training_dataset_v2_sha256": "f8910f82f9d33010f0c17d3b8300c28b6dd34045616d50af5812aea469e8bc3e",
+  "test_records_count": 1289,
+  "metrics_summary": {
+    "task2_category": {
+      "accuracy": 0.8875,
+      "macro_f1": 0.8333
+    },
+    "task3_subcategory_oracle": {
+      "accuracy": 0.7611,
+      "macro_f1": 0.5916
+    },
+    "task3_subcategory_e2e": {
+      "accuracy": 0.6866,
+      "macro_f1": 0.4991
+    },
+    "department": {
+      "accuracy": 0.8487,
+      "macro_f1": 0.7786
+    }
+  }
+}

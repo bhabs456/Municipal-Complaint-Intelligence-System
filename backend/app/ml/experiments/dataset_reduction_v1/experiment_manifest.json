@@ -1,0 +1,31 @@
+{
+  "experiment_id": "dataset_reduction_v1_retraining_20261016",
+  "timestamp": "2026-10-16T17:22:34.775557+00:00",
+  "status": "COMPLETED",
+  "raw_csv_sha256": "d951dbb484532421801f6cbd7550edaa6f9ab143da7c4d0e835ba574e4e6d5ac",
+  "training_dataset_sha256": "e9d31eec903d9c14896856f8ce366be2ce095cffb5d0a10d43c1db51264a1042",
+  "artifacts_generated": {
+    "task2_model": "task2_category_classifier_v1.joblib",
+    "task3_bundle": "task3_subcategory_classifier_bundle_v1.joblib",
+    "task3_global": "task3_global_baseline_v1.joblib",
+    "confidence_config": "confidence_config_v1.json",
+    "metrics_summary": "baseline_vs_retrained_metrics.csv",
+    "per_class_summary": "per_class_metrics.csv",
+    "training_config": "training_config.json",
+    "retraining_report": "retraining_report.md"
+  },
+  "checksums": {
+    "task2_category_classifier_v1.joblib": "f9e2f258ebb8e9abcc4848ff4647b2314594ae910cb46e3fcff04025cb41b22a",
+    "task3_subcategory_classifier_bundle_v1.joblib": "7e5a1244481d6eb4a3557561d88e4d8b6dabe8ff7090ec8038d3761238b8ca32",
+    "task3_global_baseline_v1.joblib": "31993b2d4e3269b6d0f21774a0ee92e44925255ba6fc361b6648163bcde2aaf5",
+    "confidence_config_v1.json": "54d1f8d9e2bda547cf3ae3673f321dd42c8abeeeb45b13ba16970811d3db4c0e",
+    "baseline_vs_retrained_metrics.csv": "587c22c4e9b9c8353a6064847af26563950543d03e721adcfda823f2c7026ef9",
+    "per_class_metrics.csv": "fca1ffd56a95ad0694986122092b7367decba81c2135ee587af22b1df92de5af"
+  },
+  "verdicts": {
+    "task1": "NOT_EVALUABLE (Single-class in-scope dataset; retain Batch 3 baseline)",
+    "task2": "NO_MATERIAL_CHANGE (Macro F1 delta -0.0031, 95% CI spans 0; balanced representations preserved)",
+    "task3": "MIXED (Oracle Macro F1 improved +0.0088 with substantial minority recall gains; E2E Acc moderated due to 600-sample majority cap trade-off)",
+    "department": "NO_MATERIAL_CHANGE (Deterministic mapping preserves high department macro F1 0.7544 vs 0.7624, 95% CI spans 0)"
+  }
+}

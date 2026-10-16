@@ -1,0 +1,40 @@
+{
+  "experiment_name": "dataset_reduction_v2_soft_cap",
+  "random_seed": 42,
+  "n_bootstrap": 1000,
+  "soft_cap_formula": "cap(c) = min(N(c), 600 + 10 * sqrt(N(c)))",
+  "rounding_rule": "int(round(cap))",
+  "dataset_rows": {
+    "total": 9830,
+    "train": 7224,
+    "val": 1317,
+    "test": 1289
+  },
+  "majority_caps_applied": {
+    "Garbage Dumping": {
+      "Nc": 2574,
+      "cap": 1107,
+      "discarded": 1467
+    },
+    "Potholes & Road Damage": {
+      "Nc": 1814,
+      "cap": 1026,
+      "discarded": 788
+    },
+    "Road Repair / Construction": {
+      "Nc": 1532,
+      "cap": 991,
+      "discarded": 541
+    },
+    "Street Light Not Working / Repair": {
+      "Nc": 995,
+      "cap": 915,
+      "discarded": 80
+    }
+  },
+  "minority_retention": "100% of all eligible deduplicated instances (3,185 records across 20 subcategories)",
+  "features": {
+    "vectorizer": "TfidfVectorizer(ngram_range=(1,2), min_df=2 (min_df=1 for subcat branches), max_df=0.9, sublinear_tf=True)",
+    "estimator": "CalibratedClassifierCV(LinearSVC(class_weight='balanced'), cv=3 (cv=2 for branches))"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "pipeline_version": "2.0.0",
+  "batch": "Batch 2 (Phases 2.6 - 2.10)",
+  "random_seed": 42,
+  "input_dataset": "/Users/bhabanishankarpanda/Projects/Python/Municipal-Complaint-Intelligence-System/backend/app/data/processed/cleaned_working_dataset.csv",
+  "raw_csv_path": "/Users/bhabanishankarpanda/Projects/Python/Municipal-Complaint-Intelligence-System/backend/app/data/raw/5f99b09a-64b5-45f0-ab18-4cf0a0cabf6d.csv",
+  "raw_csv_sha256": "d951dbb484532421801f6cbd7550edaa6f9ab143da7c4d0e835ba574e4e6d5ac",
+  "master_row_count": 16071,
+  "split_ratios": {
+    "train": 0.8,
+    "val": 0.1,
+    "test": 0.1
+  },
+  "group_key": [
+    "clean_title",
+    "clean_description"
+  ],
+  "taxonomies": {
+    "categories_count": 6,
+    "subcategories_count": 24,
+    "departments_count": 9
+  },
+  "tasks": {
+    "task_1": {
+      "name": "Civic vs Non-Civic",
+      "eligible_rows": 15706,
+      "target": "is_civic"
+    },
+    "task_2": {
+      "name": "6-Category Classification",
+      "eligible_rows": 13150,
+      "target": "target_category"
+    },
+    "task_3": {
+      "name": "24-Subcategory Classification",
+      "eligible_rows": 13150,
+      "target": "target_subcategory"
+    }
+  }
+}
